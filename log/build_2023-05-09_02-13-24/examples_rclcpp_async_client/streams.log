@@ -1,0 +1,56 @@
+[0.142s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_async_client
+[0.676s] -- The C compiler identification is GNU 11.3.0
+[1.317s] -- The CXX compiler identification is GNU 11.3.0
+[1.355s] -- Detecting C compiler ABI info
+[1.918s] -- Detecting C compiler ABI info - done
+[1.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.954s] -- Detecting C compile features
+[1.956s] -- Detecting C compile features - done
+[1.970s] -- Detecting CXX compiler ABI info
+[2.574s] -- Detecting CXX compiler ABI info - done
+[2.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.637s] -- Detecting CXX compile features
+[2.640s] -- Detecting CXX compile features - done
+[2.679s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.005s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.848s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.166s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.253s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.314s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.329s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[6.677s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.699s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.355s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.617s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.180s] -- Looking for pthread.h
+[8.885s] -- Looking for pthread.h - found
+[8.891s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.578s] -- Found Threads: TRUE  
+[10.674s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.291s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.314s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.314s] -- Configured cppcheck include dirs: 
+[11.315s] -- Configured cppcheck exclude dirs and/or files: 
+[11.324s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.325s] -- Configured cpplint exclude dirs and/or files: 
+[11.335s] -- Added test 'lint_cmake' to check CMake code style
+[11.344s] -- Added test 'uncrustify' to check C / C++ code style
+[11.345s] -- Configured uncrustify additional arguments: 
+[11.358s] -- Added test 'xmllint' to check XML markup files
+[11.385s] -- Configuring done
+[11.605s] -- Generating done
+[11.610s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client
+[11.713s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_async_client
+[11.726s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[12.137s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[16.681s] gmake[2]: *** wait: No child processes.  Stop.
+[16.683s] gmake[2]: *** Waiting for unfinished jobs....
+[16.694s] gmake[2]: *** wait: No child processes.  Stop.
+[16.695s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/client_main.dir/all] Error 2
+[16.696s] gmake: *** [Makefile:146: all] Interrupt
+[16.716s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4

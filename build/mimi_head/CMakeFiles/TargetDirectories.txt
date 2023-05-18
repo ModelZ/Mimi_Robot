@@ -1,0 +1,11 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/uninstall.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/mimi_head_uninstall.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/mimi_camera.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/mimi_monitor.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/test.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/edit_cache.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/rebuild_cache.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/list_install_components.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/install.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/install/local.dir
+/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/install/strip.dir

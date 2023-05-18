@@ -1,0 +1,4 @@
+source;share/mimi_head/local_setup.bash
+source;share/mimi_head/local_setup.dsv
+source;share/mimi_head/local_setup.sh
+source;share/mimi_head/local_setup.zsh

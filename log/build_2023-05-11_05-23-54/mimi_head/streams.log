@@ -1,0 +1,19 @@
+[0.060s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[0.325s] [ 50%] Built target mimi_monitor
+[0.351s] [ 75%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[15.403s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In constructor ‘[01m[KMimiCameraNode::MimiCameraNode()[m[K’:
+[15.404s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:39:29:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MimiCameraNode::mimi_camera()[m[K’
+[15.404s]    39 |             thread mimi_cam([01;31m[Kmimi_camera[m[K);
+[15.405s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[15.405s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:60:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.406s]    60 |         void [01;36m[Kmimi_camera[m[K()
+[15.406s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[15.446s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[15.447s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:249:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.447s]   249 | void sigint_handler([01;35m[Kint sig[m[K)
+[15.448s]       |                     [01;35m[K~~~~^~~[m[K
+[20.144s] gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+[20.145s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mimi_camera.dir/all] Error 2
+[20.146s] gmake: *** [Makefile:146: all] Error 2
+[20.152s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

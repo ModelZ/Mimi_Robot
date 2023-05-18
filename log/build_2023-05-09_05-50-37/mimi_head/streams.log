@@ -1,0 +1,16 @@
+[0.062s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[0.344s] [ 50%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[15.743s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In constructor ‘[01m[KMimiCameraNode::MimiCameraNode()[m[K’:
+[15.744s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[KsignalHandler[m[K’ was not declared in this scope; did you mean ‘[01m[Ksa_handler[m[K’?
+[15.744s]    23 |             signal(SIGINT, [01;31m[KsignalHandler[m[K);
+[15.744s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[15.745s]       |                            [32m[Ksa_handler[m[K
+[15.778s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid signalHandler(int)[m[K’:
+[15.779s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:141:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.779s]   141 | void signalHandler([01;35m[Kint signal[m[K)
+[15.779s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[19.983s] gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+[19.984s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mimi_camera.dir/all] Error 2
+[19.985s] gmake: *** [Makefile:146: all] Error 2
+[19.992s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

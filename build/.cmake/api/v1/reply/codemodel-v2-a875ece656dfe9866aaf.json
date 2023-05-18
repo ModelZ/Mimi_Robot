@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3d127347bc35ff836e2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mimi_head",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_camera-Debug-fe895460e2019545bd53.json",
+					"name" : "mimi_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head_uninstall-Debug-a7fd232768e9c67dc727.json",
+					"name" : "mimi_head_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_monitor-Debug-fa319f9112ed1bb75ca9.json",
+					"name" : "mimi_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6aa5b14b72114a57ce9f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mimi/mimi_ros2_ws/build",
+		"source" : "/home/mimi/mimi_ros2_ws/src/mimi_head"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,10 @@
+gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:76: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/pong.dir/build.make:76: CMakeFiles/pong.dir/src/pong.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/mimi/mimi_ros2_ws/examples/rclcpp/composition/minimal_composition/include/**",
+        "/home/mimi/mimi_ros2_ws/examples/rclcpp/executors/cbg_executor/include/**",
+        "/home/mimi/mimi_ros2_ws/examples/rclcpp/wait_set/include/**",
+        "/home/mimi/mimi_ros2_ws/src/mimi_head/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

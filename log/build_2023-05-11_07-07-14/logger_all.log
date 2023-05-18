@@ -1,0 +1,154 @@
+[1.936s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.937s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e3d43a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ebd6260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ebd6260>>)
+[2.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mimi/mimi_ros2_ws'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'ignore'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'ignore_ament_install'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['colcon_pkg']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'colcon_pkg'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['colcon_meta']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'colcon_meta'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['ros']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'ros'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['cmake', 'python']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'cmake'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'python'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extensions ['python_setup_py']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(detect) by extension 'python_setup_py'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extension 'ignore'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/mimi_head) by extension 'ros'
+[2.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mimi_head' with type 'ros.ament_cmake' and name 'mimi_head'
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_target' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_clean_cache' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_clean_first' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'cmake_force_configure' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'ament_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'catkin_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'mimi_head' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.805s] DEBUG:colcon.colcon_core.verb:Building package 'mimi_head' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mimi/mimi_ros2_ws/install/mimi_head', 'merge_install': False, 'path': '/home/mimi/mimi_ros2_ws/src/mimi_head', 'symlink_install': True, 'test_result_base': None}
+[2.808s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.824s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mimi/mimi_ros2_ws/src/mimi_head' with build type 'ament_cmake'
+[2.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mimi/mimi_ros2_ws/src/mimi_head'
+[2.851s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[30.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[30.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/mimi_ros2_ws/build/mimi_head
+[30.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mimi_head)
+[30.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mimi/mimi_ros2_ws/build/mimi_head
+[30.699s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head' for CMake module files
+[30.702s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head' for CMake config files
+[30.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('mimi_head', 'cmake_prefix_path')
+[30.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.ps1'
+[30.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.dsv'
+[30.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.sh'
+[30.718s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib'
+[30.718s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/bin'
+[30.719s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib/pkgconfig/mimi_head.pc'
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib/python3.10/site-packages'
+[30.721s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/bin'
+[30.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.ps1'
+[30.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.dsv'
+[30.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.sh'
+[30.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.bash'
+[30.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.zsh'
+[30.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/mimi_ros2_ws/install/mimi_head/share/colcon-core/packages/mimi_head)
+[30.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mimi_head)
+[30.889s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head' for CMake module files
+[30.894s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head' for CMake config files
+[30.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('mimi_head', 'cmake_prefix_path')
+[30.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.ps1'
+[30.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.dsv'
+[30.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/hook/cmake_prefix_path.sh'
+[30.919s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib'
+[30.920s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/bin'
+[30.920s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib/pkgconfig/mimi_head.pc'
+[30.922s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/lib/python3.10/site-packages'
+[30.923s] Level 1:colcon.colcon_core.environment:checking '/home/mimi/mimi_ros2_ws/install/mimi_head/bin'
+[30.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.ps1'
+[30.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.dsv'
+[30.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.sh'
+[30.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.bash'
+[30.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.zsh'
+[30.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mimi/mimi_ros2_ws/install/mimi_head/share/colcon-core/packages/mimi_head)
+[30.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.954s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.984s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.070s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/mimi_ros2_ws/install/local_setup.ps1'
+[31.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mimi/mimi_ros2_ws/install/_local_setup_util_ps1.py'
+[31.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/mimi_ros2_ws/install/setup.ps1'
+[31.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/mimi_ros2_ws/install/local_setup.sh'
+[31.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mimi/mimi_ros2_ws/install/_local_setup_util_sh.py'
+[31.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/mimi_ros2_ws/install/setup.sh'
+[31.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/mimi_ros2_ws/install/local_setup.bash'
+[31.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/mimi_ros2_ws/install/setup.bash'
+[31.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mimi/mimi_ros2_ws/install/local_setup.zsh'
+[31.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mimi/mimi_ros2_ws/install/setup.zsh'

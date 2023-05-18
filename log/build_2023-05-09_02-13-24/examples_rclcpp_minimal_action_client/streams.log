@@ -1,0 +1,64 @@
+[0.097s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.557s] -- The C compiler identification is GNU 11.3.0
+[1.186s] -- The CXX compiler identification is GNU 11.3.0
+[1.260s] -- Detecting C compiler ABI info
+[1.772s] -- Detecting C compiler ABI info - done
+[1.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.820s] -- Detecting C compile features
+[1.832s] -- Detecting C compile features - done
+[1.851s] -- Detecting CXX compiler ABI info
+[2.347s] -- Detecting CXX compiler ABI info - done
+[2.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.417s] -- Detecting CXX compile features
+[2.421s] -- Detecting CXX compile features - done
+[2.471s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.884s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.804s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.202s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.245s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.302s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.241s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[6.609s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.639s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.302s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.564s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.193s] -- Looking for pthread.h
+[8.872s] -- Looking for pthread.h - found
+[8.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.604s] -- Found Threads: TRUE  
+[10.812s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[11.054s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.902s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.912s] -- Configured cppcheck include dirs: 
+[11.913s] -- Configured cppcheck exclude dirs and/or files: 
+[11.921s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.922s] -- Configured cpplint exclude dirs and/or files: 
+[11.927s] -- Added test 'lint_cmake' to check CMake code style
+[11.945s] -- Added test 'uncrustify' to check C / C++ code style
+[11.947s] -- Configured uncrustify additional arguments: 
+[11.951s] -- Added test 'xmllint' to check XML markup files
+[11.971s] -- Configuring done
+[12.330s] -- Generating done
+[12.391s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client
+[12.696s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_minimal_action_client
+[12.698s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[13.259s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[13.423s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[13.457s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[13.549s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[16.544s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_cancel.dir/build.make:76: CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o] Interrupt
+[16.606s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client_not_composable_with_cancel.dir/all] Interrupt
+[16.632s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_feedback.dir/build.make:76: CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o] Interrupt
+[16.633s] gmake[2]: *** [CMakeFiles/action_client_not_composable.dir/build.make:76: CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o] Interrupt
+[16.633s] gmake[2]: *** [CMakeFiles/action_client_member_functions.dir/build.make:76: CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o] Interrupt
+[16.634s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_client_member_functions.dir/all] Interrupt
+[16.635s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/action_client_not_composable_with_feedback.dir/all] Interrupt
+[16.636s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/action_client_not_composable.dir/all] Interrupt
+[16.637s] gmake: *** [Makefile:146: all] Interrupt
+[16.639s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4

@@ -1,0 +1,63 @@
+[0.118s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_cbg_executor
+[0.652s] -- The C compiler identification is GNU 11.3.0
+[1.244s] -- The CXX compiler identification is GNU 11.3.0
+[1.282s] -- Detecting C compiler ABI info
+[1.912s] -- Detecting C compiler ABI info - done
+[1.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.952s] -- Detecting C compile features
+[1.955s] -- Detecting C compile features - done
+[1.971s] -- Detecting CXX compiler ABI info
+[2.605s] -- Detecting CXX compiler ABI info - done
+[2.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.634s] -- Detecting CXX compile features
+[2.637s] -- Detecting CXX compile features - done
+[2.662s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.053s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.879s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.287s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.340s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.409s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.187s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.219s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.951s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.253s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.815s] -- Looking for pthread.h
+[8.284s] -- Looking for pthread.h - found
+[8.287s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.068s] -- Found Threads: TRUE  
+[10.038s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.309s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.322s] -- Configured cppcheck include dirs: /home/mimi/mimi_ros2_ws/examples/rclcpp/executors/cbg_executor/include
+[11.323s] -- Configured cppcheck exclude dirs and/or files: 
+[11.350s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.352s] -- Configured cpplint exclude dirs and/or files: 
+[11.377s] -- Added test 'lint_cmake' to check CMake code style
+[11.425s] -- Added test 'uncrustify' to check C / C++ code style
+[11.426s] -- Configured uncrustify additional arguments: 
+[11.443s] -- Added test 'xmllint' to check XML markup files
+[11.499s] -- Configuring done
+[11.633s] -- Generating done
+[11.644s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor
+[11.730s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mimi/mimi_ros2_ws/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mimi/mimi_ros2_ws/install/examples_rclcpp_cbg_executor
+[11.732s] Invoking command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[12.144s] [ 10%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[12.210s] [ 20%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[12.249s] [ 30%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[12.271s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[16.636s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:76: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o] Interrupt
+[16.637s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Interrupt
+[16.642s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:76: CMakeFiles/pong.dir/src/pong.cpp.o] Interrupt
+[16.645s] gmake[2]: *** wait: No child processes.  Stop.
+[16.653s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] Interrupt
+[16.654s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] Interrupt
+[16.655s] gmake[2]: *** Waiting for unfinished jobs....
+[16.659s] gmake[2]: *** wait: No child processes.  Stop.
+[16.661s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Error 2
+[16.662s] gmake: *** [Makefile:146: all] Interrupt
+[16.679s] Invoked command in '/home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4

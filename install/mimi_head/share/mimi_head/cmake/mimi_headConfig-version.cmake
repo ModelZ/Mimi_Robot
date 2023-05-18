@@ -1,0 +1,1 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_core/mimi_headConfig-version.cmake

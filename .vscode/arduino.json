@@ -1,0 +1,7 @@
+{
+    "board": "esp32:esp32:esp32",
+    "programmer": "avrispmkii",
+    "port": "/dev/ttyUSB0",
+    "sketch": "src/mimi_head/.resources/testesp32/testesp32.ino",
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none"
+}

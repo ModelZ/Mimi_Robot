@@ -1,0 +1,7 @@
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::mimi_camera_initialize()[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:70:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   70 |                 exit(-1[01;31m[K);[m[K
+      |                        [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mimi_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

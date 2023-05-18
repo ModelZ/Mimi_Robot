@@ -1,0 +1,4 @@
+[0.078s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[0.330s] [ 50%] Built target mimi_monitor
+[0.370s] [ 75%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
