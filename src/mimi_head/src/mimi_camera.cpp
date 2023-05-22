@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -6,8 +7,8 @@
 #include <cv_bridge/cv_bridge.h>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/image.hpp"
+#include "mimi_head/msg/angle.hpp"
 
 using namespace std;
 using namespace cv;
@@ -32,7 +33,7 @@ class MimiCameraNode : public rclcpp::Node
                 "mimi_vision_monitor", 10
             );
 
-            angle_publisher_ = this->create_publisher<std_msgs::msg::String>(
+            angle_publisher_ = this->create_publisher<mimi_head::msg::Angle>(
                 "head_movement_angle", 10
             );
 
@@ -237,11 +238,12 @@ class MimiCameraNode : public rclcpp::Node
 
             // finalize before publish
 
-            auto msg_angle = std_msgs::msg::String();
-            msg_angle.data = to_string(angle_to_move_x) + " " + to_string(angle_to_move_z);
+            auto msg_angle = mimi_head::msg::Angle();
+            msg_angle.angle_x = round(angle_to_move_x);
+            msg_angle.angle_z = round(angle_to_move_z);
 
             //debug
-            cout << msg_angle.data
+            cout << angle_to_move_x << " " << angle_to_move_z
             << " px_x: " << px_x 
             << " px_z: "<< px_z  <<endl;
 
@@ -258,7 +260,7 @@ class MimiCameraNode : public rclcpp::Node
         float current_angle_x = 90.0;
         float current_angle_z = 90.0;
         rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr cam_publisher_;
-        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr angle_publisher_;
+        rclcpp::Publisher<mimi_head::msg::Angle>::SharedPtr angle_publisher_;
 
 };
 

@@ -1,0 +1,6 @@
+{
+  "package_name": "mimi_head",
+  "non_idl_tuples": [
+    "/home/mimi/mimi_ros2_ws/src/mimi_head:msg/Angle.msg"
+  ]
+}

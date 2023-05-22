@@ -1,0 +1,32 @@
+[  8%] Built target mimi_head__rosidl_generator_c
+[ 11%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[ 14%] Built target mimi_head__cpp
+[ 20%] Built target mimi_monitor
+[ 28%] Built target mimi_head__rosidl_typesupport_cpp
+[ 37%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[ 37%] Built target ament_cmake_python_symlink_mimi_head
+[ 45%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target mimi_head__rosidl_typesupport_c
+[ 62%] Built target mimi_head__rosidl_typesupport_introspection_c
+[ 71%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[ 71%] Built target mimi_head
+[ 74%] Built target mimi_head__py
+[ 80%] Built target mimi_head__rosidl_generator_py
+[ 85%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmimi_head/msg/angle.hpp: No such file or directory
+   10 | #include [01;31m[K"mimi_head/msg/angle.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/mimi_camera.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing mimi_head.egg-info/PKG-INFO
+writing dependency_links to mimi_head.egg-info/dependency_links.txt
+writing top-level names to mimi_head.egg-info/top_level.txt
+reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_mimi_head_egg
+gmake: *** [Makefile:146: all] Error 2

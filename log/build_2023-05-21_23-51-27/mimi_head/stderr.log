@@ -1,0 +1,42 @@
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  123 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In constructor ‘[01m[KMimiHeadMovementNode::MimiHeadMovementNode()[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   21 |             [01;31m[Ksubscription_[m[K = this->create_subscription<mimi_head::msg::Angle>(
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::servo_control(const Angle&)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_x[m[K’ was not declared in this scope
+   59 |                 [01;31m[Kangle_x[m[K = msg.angle_x;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:60:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_z[m[K’ was not declared in this scope
+   60 |                 [01;31m[Kangle_z[m[K = msg.angle_z;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:81:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpulseWidth_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |                 int [01;35m[KpulseWidth_x[m[K = 500 + angle_x * 2000 / 180;  // Convert angle to pulse width
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:82:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpulseWidth_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   82 |                 int [01;35m[KpulseWidth_z[m[K = 500 + angle_z * 2000 / 180;  // Convert angle to pulse width
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::sigint_handler(int)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:104:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | void sigint_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kint MimiHeadMovementNode::main(int, char**)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:114:20:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MimiHeadMovementNode::sigint_handler(int)[m[K’
+  114 |     signal(SIGINT, [01;31m[Ksigint_handler[m[K);
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:104:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  104 | void [01;36m[Ksigint_handler[m[K(int sig)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K At global scope:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  123 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

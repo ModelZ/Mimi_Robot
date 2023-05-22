@@ -1,0 +1,88 @@
+[0.074s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.378s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.347s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.624s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.641s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.685s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.113s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.125s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.912s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.458s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.490s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.637s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.031s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.693s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.805s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.806s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.806s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.882s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.987s] -- Configured cppcheck include dirs: 
+[7.987s] -- Configured cppcheck exclude dirs and/or files: 
+[7.991s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.997s] -- Added test 'lint_cmake' to check CMake code style
+[8.001s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.021s] -- Added test 'uncrustify' to check C / C++ code style
+[8.021s] -- Configured uncrustify additional arguments: 
+[8.025s] -- Added test 'xmllint' to check XML markup files
+[8.045s] -- Configuring done
+[8.403s] -- Generating done
+[8.431s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/mimi_head
+[8.563s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_c[0m
+[8.568s] [35m[1mConsolidate compiler generated dependencies of target mimi_monitor[0m
+[8.594s] [  2%] Built target mimi_head__cpp
+[8.636s] [ 10%] Built target mimi_head__rosidl_generator_c
+[8.646s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_cpp[0m
+[8.660s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[8.705s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_cpp[0m
+[8.713s] [ 16%] Built target mimi_monitor
+[8.724s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c[0m
+[8.757s] [ 24%] Built target mimi_head__rosidl_typesupport_cpp
+[8.789s] [ 32%] Built target mimi_head__rosidl_typesupport_introspection_c
+[8.795s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c[0m
+[8.829s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_cpp[0m
+[8.849s] [ 40%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[8.905s] [ 48%] Built target mimi_head__rosidl_typesupport_c
+[8.929s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[8.983s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[9.051s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c[0m
+[9.101s] [ 59%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[9.166s] [ 67%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[9.188s] [ 70%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[9.297s] [ 70%] Built target mimi_head
+[9.449s] [ 72%] Built target mimi_head__py
+[9.549s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_py[0m
+[9.678s] [ 78%] Built target mimi_head__rosidl_generator_py
+[9.739s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.910s] [ 83%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[9.997s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c__pyext[0m
+[10.091s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[10.092s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[10.093s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.094s] compilation terminated.
+[10.111s] [ 89%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[10.677s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c__pyext[0m
+[10.704s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+[10.704s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[10.705s] gmake[1]: *** Waiting for unfinished jobs....
+[10.746s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[11.060s] running egg_info
+[11.063s] writing mimi_head.egg-info/PKG-INFO
+[11.065s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[11.068s] writing top-level names to mimi_head.egg-info/top_level.txt
+[11.080s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[11.086s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[11.241s] [ 94%] Built target ament_cmake_python_build_mimi_head_egg
+[23.234s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[23.235s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:266:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.235s]   266 | void sigint_handler([01;35m[Kint sig[m[K)
+[23.236s]       |                     [01;35m[K~~~~^~~[m[K
+[34.079s] [ 97%] [32m[1mLinking CXX executable mimi_camera[0m
+[40.374s] [ 97%] Built target mimi_camera
+[40.379s] gmake: *** [Makefile:146: all] Error 2
+[40.387s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

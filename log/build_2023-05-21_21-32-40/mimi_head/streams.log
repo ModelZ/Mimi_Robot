@@ -1,0 +1,51 @@
+[0.078s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.437s] [  2%] Built target mimi_head__cpp
+[0.445s] [ 10%] Built target mimi_head__rosidl_generator_c
+[0.525s] [ 16%] Built target mimi_monitor
+[0.566s] [ 24%] Built target mimi_head__rosidl_typesupport_cpp
+[0.573s] [ 24%] Built target ament_cmake_python_symlink_mimi_head
+[0.653s] [ 32%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[0.694s] [ 40%] Built target mimi_head__rosidl_typesupport_introspection_c
+[0.736s] [ 48%] Built target mimi_head__rosidl_typesupport_c
+[0.808s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[0.819s] [35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[0.990s] [ 59%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[0.998s] [ 64%] Built target mimi_camera
+[1.039s] [ 72%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[1.193s] [ 72%] Built target mimi_head
+[1.368s] [ 75%] Built target mimi_head__py
+[1.523s] [ 81%] Built target mimi_head__rosidl_generator_py
+[1.679s] [ 86%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[1.749s] [ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[1.843s] [ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+[6.413s] running egg_info
+[6.417s] writing mimi_head.egg-info/PKG-INFO
+[6.536s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[6.545s] writing top-level names to mimi_head.egg-info/top_level.txt
+[8.051s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[8.058s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[8.301s] [ 97%] Built target ament_cmake_python_build_mimi_head_egg
+[19.021s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[19.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[19.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.023s]                  from [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:5[m[K:
+[19.023s] /usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)>; _Args = {}; <template-parameter-1-3> = void][m[K’:
+[19.024s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:38:106:[m[K   required from here
+[19.024s] [01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: std::thread arguments must be invocable after conversion to rvalues
+[19.025s]   130 |                                       typename decay<_Args>::type...>::[01;31m[Kvalue[m[K,
+[19.025s]       |                                                                        [01;31m[K^~~~~[m[K
+[19.026s] [01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+[19.028s] /usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > >[m[K’:
+[19.028s] [01m[K/usr/include/c++/11/bits/std_thread.h:203:13:[m[K   required from ‘[01m[Kstruct std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > > >[m[K’
+[19.029s] [01m[K/usr/include/c++/11/bits/std_thread.h:143:29:[m[K   required from ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)>; _Args = {}; <template-parameter-1-3> = void][m[K’
+[19.029s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:38:106:[m[K   required from here
+[19.030s] [01m[K/usr/include/c++/11/bits/std_thread.h:252:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > >::__result<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > >[m[K’
+[19.030s]   252 |           [01;31m[K_M_invoke[m[K(_Index_tuple<_Ind...>)
+[19.030s]       |           [01;31m[K^~~~~~~~~[m[K
+[19.031s] [01m[K/usr/include/c++/11/bits/std_thread.h:256:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > >::__result<std::tuple<std::_Bind<void (MimiHeadMovementNode::*(MimiHeadMovementNode*, std::_Placeholder<1>))(const mimi_head::msg::Angle_<std::allocator<void> >&)> > >[m[K’
+[19.031s]   256 |         [01;31m[Koperator[m[K()()
+[19.032s]       |         [01;31m[K^~~~~~~~[m[K
+[27.368s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+[27.369s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[27.371s] gmake: *** [Makefile:146: all] Error 2
+[27.414s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

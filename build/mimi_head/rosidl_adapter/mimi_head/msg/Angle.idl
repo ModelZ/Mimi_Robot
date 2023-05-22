@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mimi_head/msg/Angle.msg
+// generated code does not contain a copyright notice
+
+
+module mimi_head {
+  module msg {
+    struct Angle {
+      int32 angle_x;
+
+      int32 angle_z;
+    };
+  };
+};

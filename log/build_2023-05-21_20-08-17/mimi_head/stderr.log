@@ -1,0 +1,9 @@
+In file included from [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:10[m[K:
+[01m[K/home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/angle.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kmimi_head/msg/detail/angle__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"mimi_head/msg/detail/angle__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/mimi_camera.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

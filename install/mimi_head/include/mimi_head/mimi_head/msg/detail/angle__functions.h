@@ -1,0 +1,1 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/angle__functions.h

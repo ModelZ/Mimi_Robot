@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mimi/mimi_ros2_ws/build/mimi_head/mimi_camera" "/home/mimi/mimi_ros2_ws/build/mimi_head/mimi_monitor" "/home/mimi/mimi_ros2_ws/build/mimi_head/mimi_head_movement" "TARGETS" "mimi_camera" "mimi_monitor" "mimi_head_movement" "DESTINATION" "lib/mimi_head")

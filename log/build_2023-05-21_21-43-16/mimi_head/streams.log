@@ -1,0 +1,44 @@
+[0.069s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.427s] [  2%] Built target mimi_head__cpp
+[0.442s] [ 10%] Built target mimi_head__rosidl_generator_c
+[0.462s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[0.507s] [ 16%] Built target mimi_monitor
+[0.653s] [ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[0.664s] [ 32%] Built target mimi_head__rosidl_typesupport_introspection_c
+[0.684s] [ 40%] Built target mimi_head__rosidl_typesupport_c
+[0.738s] [ 48%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[0.929s] [ 56%] Built target mimi_head__rosidl_typesupport_cpp
+[0.957s] [ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.089s] [35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[1.129s] [ 64%] Built target mimi_head
+[1.206s] [ 70%] Built target mimi_camera
+[1.251s] [ 72%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[1.314s] [ 75%] Built target mimi_head__py
+[1.534s] [ 81%] Built target mimi_head__rosidl_generator_py
+[1.755s] [ 86%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[1.779s] [ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[1.902s] [ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+[2.894s] running egg_info
+[2.898s] writing mimi_head.egg-info/PKG-INFO
+[2.898s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[2.900s] writing top-level names to mimi_head.egg-info/top_level.txt
+[2.912s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[2.915s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.054s] [ 97%] Built target ament_cmake_python_build_mimi_head_egg
+[34.760s] [100%] [32m[1mLinking CXX executable mimi_head_movement[0m
+[36.560s] /usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `main':
+[36.561s] mimi_head_movement.cpp:(.text+0x17c): undefined reference to `gpioTerminate'
+[36.567s] /usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `MimiHeadMovementNode::MimiHeadMovementNode()':
+[36.569s] mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x1bc): undefined reference to `gpioInitialise'
+[36.570s] /usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x318): undefined reference to `gpioSetMode'
+[36.572s] /usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x32c): undefined reference to `gpioSetMode'
+[36.574s] /usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x484): undefined reference to `gpioTerminate'
+[36.576s] /usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `MimiHeadMovementNode::servo_control(mimi_head::msg::Angle_<std::allocator<void> > const&)':
+[36.577s] mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x3ac): undefined reference to `gpioServo'
+[36.577s] /usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x3c4): undefined reference to `gpioServo'
+[36.578s] /usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x51c): undefined reference to `gpioTerminate'
+[36.755s] collect2: error: ld returned 1 exit status
+[36.760s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:152: mimi_head_movement] Error 1
+[36.761s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[36.763s] gmake: *** [Makefile:146: all] Error 2
+[36.786s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

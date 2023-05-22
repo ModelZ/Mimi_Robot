@@ -1,0 +1,34 @@
+[0.073s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.405s] [  8%] Built target mimi_head__rosidl_generator_c
+[0.455s] [ 14%] Built target mimi_monitor
+[0.465s] [ 17%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[0.477s] [ 20%] Built target mimi_head__cpp
+[0.595s] [ 20%] Built target ament_cmake_python_symlink_mimi_head
+[0.665s] [ 28%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[0.680s] [ 37%] Built target mimi_head__rosidl_typesupport_introspection_c
+[0.813s] [ 45%] Built target mimi_head__rosidl_typesupport_c
+[0.862s] [ 54%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[1.054s] [ 62%] Built target mimi_head__rosidl_typesupport_cpp
+[1.086s] [ 71%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.209s] [ 71%] Built target mimi_head
+[1.371s] [ 74%] Built target mimi_head__py
+[1.602s] [ 80%] Built target mimi_head__rosidl_generator_py
+[1.815s] [ 85%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[1.880s] [ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[1.947s] [ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+[2.845s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kmimi_head/msg/angle.hpp: No such file or directory
+[2.846s]    10 | #include [01;31m[K"mimi_head/msg/angle.hpp"[m[K
+[2.846s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.847s] compilation terminated.
+[2.875s] gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+[2.878s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/mimi_camera.dir/all] Error 2
+[2.878s] gmake[1]: *** Waiting for unfinished jobs....
+[3.188s] running egg_info
+[3.193s] writing mimi_head.egg-info/PKG-INFO
+[3.194s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[3.196s] writing top-level names to mimi_head.egg-info/top_level.txt
+[3.209s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.212s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.365s] [ 97%] Built target ament_cmake_python_build_mimi_head_egg
+[3.370s] gmake: *** [Makefile:146: all] Error 2
+[3.378s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

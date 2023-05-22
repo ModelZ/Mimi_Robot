@@ -1,0 +1,27 @@
+[  2%] Built target mimi_head__cpp
+[ 10%] Built target mimi_head__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_symlink_mimi_head
+[ 16%] Built target mimi_monitor
+[ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[ 32%] Built target mimi_head__rosidl_typesupport_introspection_c
+[ 40%] Built target mimi_head__rosidl_typesupport_c
+[ 48%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[ 56%] Built target mimi_head__rosidl_typesupport_cpp
+[ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[ 64%] Built target mimi_head
+[ 70%] Built target mimi_camera
+[ 72%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[ 75%] Built target mimi_head__py
+[ 81%] Built target mimi_head__rosidl_generator_py
+[ 86%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+running egg_info
+writing mimi_head.egg-info/PKG-INFO
+writing dependency_links to mimi_head.egg-info/dependency_links.txt
+writing top-level names to mimi_head.egg-info/top_level.txt
+reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_mimi_head_egg
+[100%] [32m[1mLinking CXX executable mimi_head_movement[0m

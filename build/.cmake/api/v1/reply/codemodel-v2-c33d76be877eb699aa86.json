@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fbf87094bff7407f12b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "mimi_head__py",
+					"jsonFile" : "directory-mimi_head__py-Debug-1e325327ee8e1e9fd1ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mimi/mimi_ros2_ws/build/mimi_head__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mimi_head",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mimi_head_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mimi_head_egg-Debug-afb19024a89cae75357f.json",
+					"name" : "ament_cmake_python_build_mimi_head_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mimi_head::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mimi_head-Debug-16dd37824925c39963f6.json",
+					"name" : "ament_cmake_python_copy_mimi_head",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_camera-Debug-4b9c80cf3f90c18cccca.json",
+					"name" : "mimi_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head-Debug-9bd661a52ea017731c28.json",
+					"name" : "mimi_head",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__cpp-Debug-5b51e45b5d6e9f432413.json",
+					"name" : "mimi_head__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mimi_head__py::@a689b50956edf039710b",
+					"jsonFile" : "target-mimi_head__py-Debug-4b1211d0c55181b4f3cc.json",
+					"name" : "mimi_head__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_generator_c-Debug-2fffebe3ef5d79a2652d.json",
+					"name" : "mimi_head__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_generator_py-Debug-a9478222e2fb784e8999.json",
+					"name" : "mimi_head__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_c-Debug-e2df47c5b54777c01f9e.json",
+					"name" : "mimi_head__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_c__pyext-Debug-239ae350f37aaa30aa0b.json",
+					"name" : "mimi_head__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_cpp-Debug-55bd105aef31c9182a15.json",
+					"name" : "mimi_head__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_fastrtps_c-Debug-6e864dd25cd7b7d6e566.json",
+					"name" : "mimi_head__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_fastrtps_c__pyext-Debug-fd2819cb1a95d2ae29f2.json",
+					"name" : "mimi_head__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_fastrtps_cpp-Debug-f46ee31dd919d17a9aef.json",
+					"name" : "mimi_head__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_introspection_c-Debug-edad5ad0d4171d671920.json",
+					"name" : "mimi_head__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_introspection_c__pyext-Debug-743511dad4d74f21ec21.json",
+					"name" : "mimi_head__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head__rosidl_typesupport_introspection_cpp-Debug-196a1e9ddda51dd2f5a0.json",
+					"name" : "mimi_head__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head_movement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head_movement-Debug-df0d6c8883aaf1007131.json",
+					"name" : "mimi_head_movement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_head_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_head_uninstall-Debug-a7fd232768e9c67dc727.json",
+					"name" : "mimi_head_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimi_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimi_monitor-Debug-f5f914227737d88ef820.json",
+					"name" : "mimi_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6aa5b14b72114a57ce9f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mimi/mimi_ros2_ws/build",
+		"source" : "/home/mimi/mimi_ros2_ws/src/mimi_head"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

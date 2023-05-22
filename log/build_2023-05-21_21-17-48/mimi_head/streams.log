@@ -1,0 +1,73 @@
+[0.074s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.195s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.927s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.967s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.168s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.180s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.208s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.582s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.588s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.593s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.175s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.654s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.681s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.788s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.775s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.880s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.881s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.881s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.953s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.021s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.023s] -- Configured cppcheck include dirs: 
+[7.024s] -- Configured cppcheck exclude dirs and/or files: 
+[7.027s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.033s] -- Added test 'lint_cmake' to check CMake code style
+[7.036s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.055s] -- Added test 'uncrustify' to check C / C++ code style
+[7.057s] -- Configured uncrustify additional arguments: 
+[7.061s] -- Added test 'xmllint' to check XML markup files
+[7.081s] -- Configuring done
+[7.394s] -- Generating done
+[7.422s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/mimi_head
+[7.554s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_c[0m
+[7.561s] [35m[1mConsolidate compiler generated dependencies of target mimi_monitor[0m
+[7.593s] [  2%] Built target mimi_head__cpp
+[7.638s] [  2%] Built target ament_cmake_python_symlink_mimi_head
+[7.645s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_cpp[0m
+[7.671s] [ 10%] Built target mimi_head__rosidl_generator_c
+[7.694s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_cpp[0m
+[7.706s] [ 13%] [32m[1mLinking CXX executable mimi_monitor[0m
+[7.731s] [ 21%] Built target mimi_head__rosidl_typesupport_cpp
+[7.735s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_cpp[0m
+[7.768s] [ 29%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[7.813s] [ 37%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[7.842s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[7.934s] [ 40%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[8.201s] [ 45%] Built target mimi_camera
+[8.331s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c[0m
+[8.438s] [ 54%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[8.506s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c[0m
+[8.628s] [ 62%] Built target mimi_head__rosidl_typesupport_introspection_c
+[8.697s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[8.698s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[8.699s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.704s] compilation terminated.
+[8.716s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+[8.717s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[8.721s] gmake[1]: *** Waiting for unfinished jobs....
+[8.737s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c[0m
+[8.820s] [ 70%] Built target mimi_head__rosidl_typesupport_c
+[10.334s] running egg_info
+[10.338s] writing mimi_head.egg-info/PKG-INFO
+[10.339s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[10.340s] writing top-level names to mimi_head.egg-info/top_level.txt
+[10.356s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[10.361s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[10.497s] [ 70%] Built target ament_cmake_python_build_mimi_head_egg
+[11.796s] [ 72%] Built target mimi_monitor
+[11.800s] gmake: *** [Makefile:146: all] Error 2
+[11.806s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

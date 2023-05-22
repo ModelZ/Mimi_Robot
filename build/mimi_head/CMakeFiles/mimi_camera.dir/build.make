@@ -129,6 +129,7 @@ mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.5.4d
+mimi_camera: libmimi_head__rosidl_typesupport_cpp.so
 mimi_camera: /opt/ros/humble/lib/liblibstatistics_collector.so
 mimi_camera: /opt/ros/humble/lib/librcl.so
 mimi_camera: /opt/ros/humble/lib/librmw_implementation.so
@@ -201,11 +202,6 @@ mimi_camera: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 mimi_camera: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 mimi_camera: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 mimi_camera: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-mimi_camera: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-mimi_camera: /opt/ros/humble/lib/librosidl_typesupport_c.so
-mimi_camera: /opt/ros/humble/lib/librosidl_runtime_c.so
-mimi_camera: /opt/ros/humble/lib/librcpputils.so
-mimi_camera: /opt/ros/humble/lib/librcutils.so
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.5.4d
@@ -225,6 +221,11 @@ mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5.4d
 mimi_camera: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4d
+mimi_camera: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+mimi_camera: /opt/ros/humble/lib/librosidl_typesupport_c.so
+mimi_camera: /opt/ros/humble/lib/librcpputils.so
+mimi_camera: /opt/ros/humble/lib/librosidl_runtime_c.so
+mimi_camera: /opt/ros/humble/lib/librcutils.so
 mimi_camera: CMakeFiles/mimi_camera.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mimi_camera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mimi_camera.dir/link.txt --verbose=$(VERBOSE)

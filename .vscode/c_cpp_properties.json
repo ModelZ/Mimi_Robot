@@ -12,7 +12,9 @@
                 "/home/mimi/mimi_ros2_ws/examples/rclcpp/executors/cbg_executor/include/**",
                 "/home/mimi/mimi_ros2_ws/examples/rclcpp/wait_set/include/**",
                 "/home/mimi/mimi_ros2_ws/src/mimi_head/include/**",
-                "/usr/include/**"
+                "/home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/**",
+                "/usr/include/**",
+                "${workspaceFolder}/build/mimi_head/rosidl_generator_cpp"
             ],
             "forcedInclude": [],
             "cStandard": "gnu11",

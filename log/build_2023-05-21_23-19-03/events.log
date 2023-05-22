@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.002966] (mimi_head) JobQueued: {'identifier': 'mimi_head', 'dependencies': OrderedDict()}
+[0.004327] (mimi_head) JobStarted: {'identifier': 'mimi_head'}
+[0.071385] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'cmake'}
+[0.075557] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'build'}
+[0.078786] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mimi/mimi_ros2_ws/build/mimi_head', '--', '-j4', '-l4'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 50886 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e6793-ded3-424d-bc60-ac18231695b0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 50886 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble')]), 'shell': False}
+[0.098569] (-) TimerEvent: {}
+[0.199392] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.388772] (mimi_head) StdoutLine: {'line': b'[  8%] Built target mimi_head__rosidl_generator_c\n'}
+[0.399822] (mimi_head) StdoutLine: {'line': b'[ 10%] Built target mimi_head__cpp\n'}
+[0.400950] (-) TimerEvent: {}
+[0.425585] (mimi_head) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_mimi_head\n'}
+[0.495269] (mimi_head) StdoutLine: {'line': b'[ 16%] Built target mimi_monitor\n'}
+[0.501277] (-) TimerEvent: {}
+[0.576739] (mimi_head) StdoutLine: {'line': b'[ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_c\n'}
+[0.591772] (mimi_head) StdoutLine: {'line': b'[ 32%] Built target mimi_head__rosidl_typesupport_introspection_c\n'}
+[0.601506] (-) TimerEvent: {}
+[0.617253] (mimi_head) StdoutLine: {'line': b'[ 40%] Built target mimi_head__rosidl_typesupport_c\n'}
+[0.663548] (mimi_head) StdoutLine: {'line': b'[ 48%] Built target mimi_head__rosidl_typesupport_introspection_cpp\n'}
+[0.707827] (-) TimerEvent: {}
+[0.755159] (mimi_head) StdoutLine: {'line': b'[ 56%] Built target mimi_head__rosidl_typesupport_cpp\n'}
+[0.761806] (mimi_head) StdoutLine: {'line': b'[ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp\n'}
+[0.808058] (-) TimerEvent: {}
+[0.874027] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head_movement\x1b[0m\n'}
+[0.911849] (-) TimerEvent: {}
+[0.948208] (mimi_head) StdoutLine: {'line': b'[ 64%] Built target mimi_head\n'}
+[1.023762] (-) TimerEvent: {}
+[1.059790] (mimi_head) StdoutLine: {'line': b'[ 70%] Built target mimi_camera\n'}
+[1.088060] (mimi_head) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o\x1b[0m\n'}
+[1.124055] (-) TimerEvent: {}
+[1.199954] (mimi_head) StdoutLine: {'line': b'[ 75%] Built target mimi_head__py\n'}
+[1.224269] (-) TimerEvent: {}
+[1.327950] (-) TimerEvent: {}
+[1.433185] (-) TimerEvent: {}
+[1.476051] (mimi_head) StdoutLine: {'line': b'[ 81%] Built target mimi_head__rosidl_generator_py\n'}
+[1.533444] (-) TimerEvent: {}
+[1.636010] (-) TimerEvent: {}
+[1.739304] (-) TimerEvent: {}
+[1.758262] (mimi_head) StdoutLine: {'line': b'[ 86%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext\n'}
+[1.777248] (mimi_head) StdoutLine: {'line': b'[ 91%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.839683] (-) TimerEvent: {}
+[1.941531] (-) TimerEvent: {}
+[2.023117] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext\n'}
+[2.043538] (-) TimerEvent: {}
+[2.145093] (-) TimerEvent: {}
+[2.246696] (-) TimerEvent: {}
+[2.348399] (-) TimerEvent: {}
+[2.451391] (-) TimerEvent: {}
+[2.552838] (-) TimerEvent: {}
+[2.655764] (-) TimerEvent: {}
+[2.756639] (-) TimerEvent: {}
+[2.857624] (-) TimerEvent: {}
+[2.958664] (-) TimerEvent: {}
+[3.059709] (-) TimerEvent: {}
+[3.133112] (mimi_head) StdoutLine: {'line': b'running egg_info\n'}
+[3.138551] (mimi_head) StdoutLine: {'line': b'writing mimi_head.egg-info/PKG-INFO\n'}
+[3.141981] (mimi_head) StdoutLine: {'line': b'writing dependency_links to mimi_head.egg-info/dependency_links.txt\n'}
+[3.146011] (mimi_head) StdoutLine: {'line': b'writing top-level names to mimi_head.egg-info/top_level.txt\n'}
+[3.159891] (-) TimerEvent: {}
+[3.163895] (mimi_head) StdoutLine: {'line': b"reading manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[3.168410] (mimi_head) StdoutLine: {'line': b"writing manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[3.260147] (-) TimerEvent: {}
+[3.359929] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_mimi_head_egg\n'}
+[3.360985] (-) TimerEvent: {}
+[3.461777] (-) TimerEvent: {}
+[3.562737] (-) TimerEvent: {}
+[3.663803] (-) TimerEvent: {}
+[3.764711] (-) TimerEvent: {}
+[3.865729] (-) TimerEvent: {}
+[3.966807] (-) TimerEvent: {}
+[4.068053] (-) TimerEvent: {}
+[4.169047] (-) TimerEvent: {}
+[4.270177] (-) TimerEvent: {}
+[4.371466] (-) TimerEvent: {}
+[4.472550] (-) TimerEvent: {}
+[4.573453] (-) TimerEvent: {}
+[4.674387] (-) TimerEvent: {}
+[4.775421] (-) TimerEvent: {}
+[4.876409] (-) TimerEvent: {}
+[4.977451] (-) TimerEvent: {}
+[5.078443] (-) TimerEvent: {}
+[5.179596] (-) TimerEvent: {}
+[5.280618] (-) TimerEvent: {}
+[5.381597] (-) TimerEvent: {}
+[5.482777] (-) TimerEvent: {}
+[5.583854] (-) TimerEvent: {}
+[5.684890] (-) TimerEvent: {}
+[5.785928] (-) TimerEvent: {}
+[5.886926] (-) TimerEvent: {}
+[5.988049] (-) TimerEvent: {}
+[6.089110] (-) TimerEvent: {}
+[6.190021] (-) TimerEvent: {}
+[6.290991] (-) TimerEvent: {}
+[6.392056] (-) TimerEvent: {}
+[6.493177] (-) TimerEvent: {}
+[6.594299] (-) TimerEvent: {}
+[6.695209] (-) TimerEvent: {}
+[6.796198] (-) TimerEvent: {}
+[6.897300] (-) TimerEvent: {}
+[6.998517] (-) TimerEvent: {}
+[7.099438] (-) TimerEvent: {}
+[7.200390] (-) TimerEvent: {}
+[7.301701] (-) TimerEvent: {}
+[7.402893] (-) TimerEvent: {}
+[7.504084] (-) TimerEvent: {}
+[7.605215] (-) TimerEvent: {}
+[7.706452] (-) TimerEvent: {}
+[7.807474] (-) TimerEvent: {}
+[7.908593] (-) TimerEvent: {}
+[8.009618] (-) TimerEvent: {}
+[8.110557] (-) TimerEvent: {}
+[8.211447] (-) TimerEvent: {}
+[8.312371] (-) TimerEvent: {}
+[8.413337] (-) TimerEvent: {}
+[8.514397] (-) TimerEvent: {}
+[8.615677] (-) TimerEvent: {}
+[8.716768] (-) TimerEvent: {}
+[8.817876] (-) TimerEvent: {}
+[8.918968] (-) TimerEvent: {}
+[9.020041] (-) TimerEvent: {}
+[9.121167] (-) TimerEvent: {}
+[9.222325] (-) TimerEvent: {}
+[9.323238] (-) TimerEvent: {}
+[9.424162] (-) TimerEvent: {}
+[9.525125] (-) TimerEvent: {}
+[9.626021] (-) TimerEvent: {}
+[9.726972] (-) TimerEvent: {}
+[9.827928] (-) TimerEvent: {}
+[9.928886] (-) TimerEvent: {}
+[10.029955] (-) TimerEvent: {}
+[10.130961] (-) TimerEvent: {}
+[10.232105] (-) TimerEvent: {}
+[10.333249] (-) TimerEvent: {}
+[10.434372] (-) TimerEvent: {}
+[10.535432] (-) TimerEvent: {}
+[10.636593] (-) TimerEvent: {}
+[10.737660] (-) TimerEvent: {}
+[10.838791] (-) TimerEvent: {}
+[10.939864] (-) TimerEvent: {}
+[11.040956] (-) TimerEvent: {}
+[11.141965] (-) TimerEvent: {}
+[11.243115] (-) TimerEvent: {}
+[11.344075] (-) TimerEvent: {}
+[11.444985] (-) TimerEvent: {}
+[11.545890] (-) TimerEvent: {}
+[11.646826] (-) TimerEvent: {}
+[11.747774] (-) TimerEvent: {}
+[11.848730] (-) TimerEvent: {}
+[11.949643] (-) TimerEvent: {}
+[12.050679] (-) TimerEvent: {}
+[12.151724] (-) TimerEvent: {}
+[12.252707] (-) TimerEvent: {}
+[12.353750] (-) TimerEvent: {}
+[12.454682] (-) TimerEvent: {}
+[12.555652] (-) TimerEvent: {}
+[12.656605] (-) TimerEvent: {}
+[12.757690] (-) TimerEvent: {}
+[12.858792] (-) TimerEvent: {}
+[12.959877] (-) TimerEvent: {}
+[13.061267] (-) TimerEvent: {}
+[13.162391] (-) TimerEvent: {}
+[13.263496] (-) TimerEvent: {}
+[13.364643] (-) TimerEvent: {}
+[13.465699] (-) TimerEvent: {}
+[13.566735] (-) TimerEvent: {}
+[13.667739] (-) TimerEvent: {}
+[13.768648] (-) TimerEvent: {}
+[13.869572] (-) TimerEvent: {}
+[13.970489] (-) TimerEvent: {}
+[14.071395] (-) TimerEvent: {}
+[14.172339] (-) TimerEvent: {}
+[14.273371] (-) TimerEvent: {}
+[14.374608] (-) TimerEvent: {}
+[14.475770] (-) TimerEvent: {}
+[14.573734] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.574633] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.575353] (mimi_head) StderrLine: {'line': b'  101 | void sigint_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[14.576049] (-) TimerEvent: {}
+[14.576875] (mimi_head) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[14.676279] (-) TimerEvent: {}
+[14.777139] (-) TimerEvent: {}
+[14.878065] (-) TimerEvent: {}
+[14.978945] (-) TimerEvent: {}
+[15.079859] (-) TimerEvent: {}
+[15.180748] (-) TimerEvent: {}
+[15.281741] (-) TimerEvent: {}
+[15.382702] (-) TimerEvent: {}
+[15.483783] (-) TimerEvent: {}
+[15.584698] (-) TimerEvent: {}
+[15.685608] (-) TimerEvent: {}
+[15.786542] (-) TimerEvent: {}
+[15.887479] (-) TimerEvent: {}
+[15.988657] (-) TimerEvent: {}
+[16.089583] (-) TimerEvent: {}
+[16.190525] (-) TimerEvent: {}
+[16.291762] (-) TimerEvent: {}
+[16.392828] (-) TimerEvent: {}
+[16.493927] (-) TimerEvent: {}
+[16.594940] (-) TimerEvent: {}
+[16.695854] (-) TimerEvent: {}
+[16.796759] (-) TimerEvent: {}
+[16.897658] (-) TimerEvent: {}
+[16.998545] (-) TimerEvent: {}
+[17.099453] (-) TimerEvent: {}
+[17.200512] (-) TimerEvent: {}
+[17.301721] (-) TimerEvent: {}
+[17.402615] (-) TimerEvent: {}
+[17.503613] (-) TimerEvent: {}
+[17.604546] (-) TimerEvent: {}
+[17.705579] (-) TimerEvent: {}
+[17.806552] (-) TimerEvent: {}
+[17.907542] (-) TimerEvent: {}
+[18.008701] (-) TimerEvent: {}
+[18.109763] (-) TimerEvent: {}
+[18.210825] (-) TimerEvent: {}
+[18.311928] (-) TimerEvent: {}
+[18.412829] (-) TimerEvent: {}
+[18.513740] (-) TimerEvent: {}
+[18.614650] (-) TimerEvent: {}
+[18.715615] (-) TimerEvent: {}
+[18.816513] (-) TimerEvent: {}
+[18.917414] (-) TimerEvent: {}
+[19.018298] (-) TimerEvent: {}
+[19.119310] (-) TimerEvent: {}
+[19.220527] (-) TimerEvent: {}
+[19.321445] (-) TimerEvent: {}
+[19.422340] (-) TimerEvent: {}
+[19.523225] (-) TimerEvent: {}
+[19.624227] (-) TimerEvent: {}
+[19.725364] (-) TimerEvent: {}
+[19.826437] (-) TimerEvent: {}
+[19.927514] (-) TimerEvent: {}
+[20.028594] (-) TimerEvent: {}
+[20.129673] (-) TimerEvent: {}
+[20.230690] (-) TimerEvent: {}
+[20.331638] (-) TimerEvent: {}
+[20.432510] (-) TimerEvent: {}
+[20.533399] (-) TimerEvent: {}
+[20.634290] (-) TimerEvent: {}
+[20.735187] (-) TimerEvent: {}
+[20.836246] (-) TimerEvent: {}
+[20.937148] (-) TimerEvent: {}
+[21.038357] (-) TimerEvent: {}
+[21.139263] (-) TimerEvent: {}
+[21.240372] (-) TimerEvent: {}
+[21.341441] (-) TimerEvent: {}
+[21.442508] (-) TimerEvent: {}
+[21.543431] (-) TimerEvent: {}
+[21.644455] (-) TimerEvent: {}
+[21.745865] (-) TimerEvent: {}
+[21.846998] (-) TimerEvent: {}
+[21.948043] (-) TimerEvent: {}
+[22.049061] (-) TimerEvent: {}
+[22.150172] (-) TimerEvent: {}
+[22.251173] (-) TimerEvent: {}
+[22.352466] (-) TimerEvent: {}
+[22.453548] (-) TimerEvent: {}
+[22.554665] (-) TimerEvent: {}
+[22.655805] (-) TimerEvent: {}
+[22.756952] (-) TimerEvent: {}
+[22.858051] (-) TimerEvent: {}
+[22.959243] (-) TimerEvent: {}
+[23.060198] (-) TimerEvent: {}
+[23.161135] (-) TimerEvent: {}
+[23.262106] (-) TimerEvent: {}
+[23.363204] (-) TimerEvent: {}
+[23.464368] (-) TimerEvent: {}
+[23.565461] (-) TimerEvent: {}
+[23.666416] (-) TimerEvent: {}
+[23.767335] (-) TimerEvent: {}
+[23.868229] (-) TimerEvent: {}
+[23.969245] (-) TimerEvent: {}
+[24.070219] (-) TimerEvent: {}
+[24.171205] (-) TimerEvent: {}
+[24.272405] (-) TimerEvent: {}
+[24.373515] (-) TimerEvent: {}
+[24.474475] (-) TimerEvent: {}
+[24.575394] (-) TimerEvent: {}
+[24.676364] (-) TimerEvent: {}
+[24.777265] (-) TimerEvent: {}
+[24.878281] (-) TimerEvent: {}
+[24.979168] (-) TimerEvent: {}
+[25.080156] (-) TimerEvent: {}
+[25.181007] (-) TimerEvent: {}
+[25.281850] (-) TimerEvent: {}
+[25.382717] (-) TimerEvent: {}
+[25.483666] (-) TimerEvent: {}
+[25.584582] (-) TimerEvent: {}
+[25.685516] (-) TimerEvent: {}
+[25.786615] (-) TimerEvent: {}
+[25.887507] (-) TimerEvent: {}
+[25.988565] (-) TimerEvent: {}
+[26.089636] (-) TimerEvent: {}
+[26.190675] (-) TimerEvent: {}
+[26.291723] (-) TimerEvent: {}
+[26.393271] (-) TimerEvent: {}
+[26.494339] (-) TimerEvent: {}
+[26.595247] (-) TimerEvent: {}
+[26.696240] (-) TimerEvent: {}
+[26.797125] (-) TimerEvent: {}
+[26.898033] (-) TimerEvent: {}
+[26.999011] (-) TimerEvent: {}
+[27.100280] (-) TimerEvent: {}
+[27.201561] (-) TimerEvent: {}
+[27.302922] (-) TimerEvent: {}
+[27.404976] (-) TimerEvent: {}
+[27.505928] (-) TimerEvent: {}
+[27.606911] (-) TimerEvent: {}
+[27.708090] (-) TimerEvent: {}
+[27.809245] (-) TimerEvent: {}
+[27.910235] (-) TimerEvent: {}
+[28.011275] (-) TimerEvent: {}
+[28.112246] (-) TimerEvent: {}
+[28.213185] (-) TimerEvent: {}
+[28.314096] (-) TimerEvent: {}
+[28.415161] (-) TimerEvent: {}
+[28.516102] (-) TimerEvent: {}
+[28.617033] (-) TimerEvent: {}
+[28.718148] (-) TimerEvent: {}
+[28.819234] (-) TimerEvent: {}
+[28.920249] (-) TimerEvent: {}
+[29.021339] (-) TimerEvent: {}
+[29.122369] (-) TimerEvent: {}
+[29.223279] (-) TimerEvent: {}
+[29.324269] (-) TimerEvent: {}
+[29.425300] (-) TimerEvent: {}
+[29.526225] (-) TimerEvent: {}
+[29.627216] (-) TimerEvent: {}
+[29.728387] (-) TimerEvent: {}
+[29.829347] (-) TimerEvent: {}
+[29.930451] (-) TimerEvent: {}
+[30.031504] (-) TimerEvent: {}
+[30.133587] (-) TimerEvent: {}
+[30.234784] (-) TimerEvent: {}
+[30.335729] (-) TimerEvent: {}
+[30.436789] (-) TimerEvent: {}
+[30.537709] (-) TimerEvent: {}
+[30.638584] (-) TimerEvent: {}
+[30.739620] (-) TimerEvent: {}
+[30.840670] (-) TimerEvent: {}
+[30.941613] (-) TimerEvent: {}
+[31.042605] (-) TimerEvent: {}
+[31.143927] (-) TimerEvent: {}
+[31.245074] (-) TimerEvent: {}
+[31.346108] (-) TimerEvent: {}
+[31.447217] (-) TimerEvent: {}
+[31.548274] (-) TimerEvent: {}
+[31.649213] (-) TimerEvent: {}
+[31.750111] (-) TimerEvent: {}
+[31.851016] (-) TimerEvent: {}
+[31.952001] (-) TimerEvent: {}
+[32.053017] (-) TimerEvent: {}
+[32.154057] (-) TimerEvent: {}
+[32.254883] (-) TimerEvent: {}
+[32.355911] (-) TimerEvent: {}
+[32.456974] (-) TimerEvent: {}
+[32.557939] (-) TimerEvent: {}
+[32.659041] (-) TimerEvent: {}
+[32.759959] (-) TimerEvent: {}
+[32.860933] (-) TimerEvent: {}
+[32.962010] (-) TimerEvent: {}
+[33.062906] (-) TimerEvent: {}
+[33.163905] (-) TimerEvent: {}
+[33.264870] (-) TimerEvent: {}
+[33.365843] (-) TimerEvent: {}
+[33.466757] (-) TimerEvent: {}
+[33.567893] (-) TimerEvent: {}
+[33.668953] (-) TimerEvent: {}
+[33.769930] (-) TimerEvent: {}
+[33.871056] (-) TimerEvent: {}
+[33.972065] (-) TimerEvent: {}
+[34.073044] (-) TimerEvent: {}
+[34.174179] (-) TimerEvent: {}
+[34.275103] (-) TimerEvent: {}
+[34.376671] (-) TimerEvent: {}
+[34.477703] (-) TimerEvent: {}
+[34.578704] (-) TimerEvent: {}
+[34.679948] (-) TimerEvent: {}
+[34.780853] (-) TimerEvent: {}
+[34.881810] (-) TimerEvent: {}
+[34.982887] (-) TimerEvent: {}
+[35.083997] (-) TimerEvent: {}
+[35.184872] (-) TimerEvent: {}
+[35.285795] (-) TimerEvent: {}
+[35.386841] (-) TimerEvent: {}
+[35.487777] (-) TimerEvent: {}
+[35.588685] (-) TimerEvent: {}
+[35.689579] (-) TimerEvent: {}
+[35.790810] (-) TimerEvent: {}
+[35.891794] (-) TimerEvent: {}
+[35.992770] (-) TimerEvent: {}
+[36.093726] (-) TimerEvent: {}
+[36.194724] (-) TimerEvent: {}
+[36.295756] (-) TimerEvent: {}
+[36.396917] (-) TimerEvent: {}
+[36.497851] (-) TimerEvent: {}
+[36.598777] (-) TimerEvent: {}
+[36.699993] (-) TimerEvent: {}
+[36.800876] (-) TimerEvent: {}
+[36.901882] (-) TimerEvent: {}
+[37.002961] (-) TimerEvent: {}
+[37.103972] (-) TimerEvent: {}
+[37.204924] (-) TimerEvent: {}
+[37.306066] (-) TimerEvent: {}
+[37.407174] (-) TimerEvent: {}
+[37.508385] (-) TimerEvent: {}
+[37.609301] (-) TimerEvent: {}
+[37.710249] (-) TimerEvent: {}
+[37.811345] (-) TimerEvent: {}
+[37.912328] (-) TimerEvent: {}
+[38.013276] (-) TimerEvent: {}
+[38.114306] (-) TimerEvent: {}
+[38.215228] (-) TimerEvent: {}
+[38.316223] (-) TimerEvent: {}
+[38.417196] (-) TimerEvent: {}
+[38.518145] (-) TimerEvent: {}
+[38.619126] (-) TimerEvent: {}
+[38.720273] (-) TimerEvent: {}
+[38.821335] (-) TimerEvent: {}
+[38.922287] (-) TimerEvent: {}
+[39.023308] (-) TimerEvent: {}
+[39.124433] (-) TimerEvent: {}
+[39.225362] (-) TimerEvent: {}
+[39.326331] (-) TimerEvent: {}
+[39.427277] (-) TimerEvent: {}
+[39.528294] (-) TimerEvent: {}
+[39.629356] (-) TimerEvent: {}
+[39.730280] (-) TimerEvent: {}
+[39.831244] (-) TimerEvent: {}
+[39.932267] (-) TimerEvent: {}
+[40.033303] (-) TimerEvent: {}
+[40.134253] (-) TimerEvent: {}
+[40.235160] (-) TimerEvent: {}
+[40.336258] (-) TimerEvent: {}
+[40.437139] (-) TimerEvent: {}
+[40.538105] (-) TimerEvent: {}
+[40.639212] (-) TimerEvent: {}
+[40.740149] (-) TimerEvent: {}
+[40.841023] (-) TimerEvent: {}
+[40.941941] (-) TimerEvent: {}
+[41.042903] (-) TimerEvent: {}
+[41.144049] (-) TimerEvent: {}
+[41.245279] (-) TimerEvent: {}
+[41.346221] (-) TimerEvent: {}
+[41.447226] (-) TimerEvent: {}
+[41.548504] (-) TimerEvent: {}
+[41.649570] (-) TimerEvent: {}
+[41.750619] (-) TimerEvent: {}
+[41.851760] (-) TimerEvent: {}
+[41.952857] (-) TimerEvent: {}
+[42.053724] (-) TimerEvent: {}
+[42.154729] (-) TimerEvent: {}
+[42.255898] (-) TimerEvent: {}
+[42.356977] (-) TimerEvent: {}
+[42.457915] (-) TimerEvent: {}
+[42.558836] (-) TimerEvent: {}
+[42.659877] (-) TimerEvent: {}
+[42.760908] (-) TimerEvent: {}
+[42.861837] (-) TimerEvent: {}
+[42.962744] (-) TimerEvent: {}
+[43.063994] (-) TimerEvent: {}
+[43.164867] (-) TimerEvent: {}
+[43.265766] (-) TimerEvent: {}
+[43.366659] (-) TimerEvent: {}
+[43.467637] (-) TimerEvent: {}
+[43.568712] (-) TimerEvent: {}
+[43.671175] (-) TimerEvent: {}
+[43.772556] (-) TimerEvent: {}
+[43.875188] (-) TimerEvent: {}
+[43.976657] (-) TimerEvent: {}
+[44.077682] (-) TimerEvent: {}
+[44.178806] (-) TimerEvent: {}
+[44.280002] (-) TimerEvent: {}
+[44.380964] (-) TimerEvent: {}
+[44.481996] (-) TimerEvent: {}
+[44.532934] (mimi_head) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mimi_head_movement\x1b[0m\n'}
+[44.582344] (-) TimerEvent: {}
+[44.684521] (-) TimerEvent: {}
+[44.785556] (-) TimerEvent: {}
+[44.886860] (-) TimerEvent: {}
+[44.989067] (-) TimerEvent: {}
+[45.090769] (-) TimerEvent: {}
+[45.192306] (-) TimerEvent: {}
+[45.293730] (-) TimerEvent: {}
+[45.394993] (-) TimerEvent: {}
+[45.496936] (-) TimerEvent: {}
+[45.597971] (-) TimerEvent: {}
+[45.698794] (-) TimerEvent: {}
+[45.799789] (-) TimerEvent: {}
+[45.901291] (-) TimerEvent: {}
+[46.002162] (-) TimerEvent: {}
+[46.103297] (-) TimerEvent: {}
+[46.204986] (-) TimerEvent: {}
+[46.305955] (-) TimerEvent: {}
+[46.401122] (mimi_head) StdoutLine: {'line': b'[100%] Built target mimi_head_movement\n'}
+[46.406186] (-) TimerEvent: {}
+[46.452918] (mimi_head) CommandEnded: {'returncode': 0}
+[46.506492] (-) TimerEvent: {}
+[46.607377] (-) TimerEvent: {}
+[46.708423] (-) TimerEvent: {}
+[46.812470] (-) TimerEvent: {}
+[46.854912] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'install'}
+[46.893839] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mimi/mimi_ros2_ws/build/mimi_head'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 50886 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e6793-ded3-424d-bc60-ac18231695b0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 50886 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble')]), 'shell': False}
+[46.912721] (-) TimerEvent: {}
+[46.929186] (mimi_head) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.931397] (mimi_head) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.933042] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/rosidl_interfaces/mimi_head\n'}
+[46.935866] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/angle.h\n'}
+[46.937157] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__functions.h\n'}
+[46.938433] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__struct.h\n'}
+[46.939775] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__type_support.h\n'}
+[46.941084] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_generator_c__visibility_control.h\n'}
+[46.942433] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/library_path.sh\n'}
+[46.943541] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/library_path.dsv\n'}
+[46.946778] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_fastrtps_c.h\n'}
+[46.947921] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[46.950205] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/angle.hpp\n'}
+[46.951300] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__builder.hpp\n'}
+[46.952430] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__struct.hpp\n'}
+[46.953546] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__traits.hpp\n'}
+[46.957485] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.958767] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.961323] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_introspection_c.h\n'}
+[46.962421] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.964884] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.966035] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/pythonpath.sh\n'}
+[46.967146] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/pythonpath.dsv\n'}
+[46.969319] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[46.970376] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[46.971456] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[46.972722] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[46.978114] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/__init__.py\n'}
+[46.979144] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_c.c\n'}
+[46.980250] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[46.981280] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[46.982337] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/libmimi_head__rosidl_generator_py.so\n'}
+[46.983403] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.984530] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.985590] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.986647] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/__init__.py\n'}
+[46.987791] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_angle.py\n'}
+[46.988920] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_angle_s.c\n'}
+[46.990931] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.993044] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.995040] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.996933] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/msg/Angle.idl\n'}
+[46.998083] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/msg/Angle.msg\n'}
+[46.999204] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_camera\n'}
+[47.000374] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_monitor\n'}
+[47.001399] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_head_movement\n'}
+[47.003049] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head//launch/main.launch.py\n'}
+[47.004501] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/package_run_dependencies/mimi_head\n'}
+[47.005903] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/parent_prefix_path/mimi_head\n'}
+[47.007087] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/ament_prefix_path.sh\n'}
+[47.008393] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/ament_prefix_path.dsv\n'}
+[47.009841] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/path.sh\n'}
+[47.011146] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/path.dsv\n'}
+[47.012573] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.bash\n'}
+[47.013343] (-) TimerEvent: {}
+[47.015280] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.sh\n'}
+[47.016798] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.zsh\n'}
+[47.017971] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.dsv\n'}
+[47.018893] (mimi_head) StdoutLine: {'line': b'-- Symlinking: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.dsv\n'}
+[47.057238] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/packages/mimi_head\n'}
+[47.058419] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake-extras.cmake\n'}
+[47.059667] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.061071] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.062259] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.063602] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.064979] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.066416] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[47.067805] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_headConfig.cmake\n'}
+[47.069164] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_headConfig-version.cmake\n'}
+[47.070435] (mimi_head) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.xml\n'}
+[47.071896] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_generator_c.so\n'}
+[47.074232] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_fastrtps_c.so\n'}
+[47.076618] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_fastrtps_cpp.so\n'}
+[47.078853] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_introspection_c.so\n'}
+[47.081029] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_c.so\n'}
+[47.083308] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_introspection_cpp.so\n'}
+[47.085794] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_cpp.so\n'}
+[47.113549] (-) TimerEvent: {}
+[47.214363] (-) TimerEvent: {}
+[47.272791] (mimi_head) StdoutLine: {'line': b"Listing '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head'...\n"}
+[47.274830] (mimi_head) StdoutLine: {'line': b"Listing '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg'...\n"}
+[47.313528] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_generator_py.so\n'}
+[47.314595] (-) TimerEvent: {}
+[47.315311] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cExport.cmake\n'}
+[47.316485] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cExport-noconfig.cmake\n'}
+[47.317160] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[47.317693] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[47.321079] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cppExport.cmake\n'}
+[47.324481] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[47.332124] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[47.333005] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cExport.cmake\n'}
+[47.333776] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[47.334447] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cExport.cmake\n'}
+[47.335009] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[47.335479] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[47.336291] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[47.337137] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cppExport.cmake\n'}
+[47.337770] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[47.338358] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_pyExport.cmake\n'}
+[47.338995] (mimi_head) StdoutLine: {'line': b'-- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_pyExport-noconfig.cmake\n'}
+[47.371935] (mimi_head) CommandEnded: {'returncode': 0}
+[47.418101] (-) TimerEvent: {}
+[47.519715] (-) TimerEvent: {}
+[47.620826] (-) TimerEvent: {}
+[47.721624] (-) TimerEvent: {}
+[47.822469] (-) TimerEvent: {}
+[47.928472] (-) TimerEvent: {}
+[47.948043] (mimi_head) JobEnded: {'identifier': 'mimi_head', 'rc': 0}
+[47.952306] (-) EventReactorShutdown: {}

@@ -181,10 +181,34 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/opencv4/opencv2/core.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
   /usr/include/opencv4/opencv2/core/version.hpp \
-  /usr/include/c++/11/limits \
   /usr/include/opencv4/opencv2/core/hal/interface.h \
   /usr/include/c++/11/cstddef \
   /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
@@ -237,30 +261,6 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/c++/11/cmath \
-  /usr/include/math.h \
-  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
-  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
-  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -754,15 +754,15 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp
+  rosidl_generator_cpp/mimi_head/msg/angle.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/angle__traits.hpp
 
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+rosidl_generator_cpp/mimi_head/msg/detail/angle__traits.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+rosidl_generator_cpp/mimi_head/msg/angle.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -918,8 +918,6 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
-
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
@@ -1018,27 +1016,9 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
-
-/usr/include/signal.h:
-
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/vector:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -1055,6 +1035,8 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /usr/include/linux/stddef.h:
+
+rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
@@ -1087,12 +1069,6 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:
 
 /usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
@@ -1146,11 +1122,21 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /usr/include/opencv4/opencv2/core.hpp:
 
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
 /usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/strings.h:
-
-/usr/include/aarch64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/istream:
 
@@ -1175,6 +1161,10 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /usr/include/c++/11/cwctype:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
@@ -1220,6 +1210,12 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:
+
+/usr/include/string.h:
+
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
@@ -1244,6 +1240,8 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /usr/include/stdint.h:
 
+rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -1251,6 +1249,10 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/stdlib.h:
 
@@ -1301,6 +1303,14 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /usr/include/c++/11/cxxabi.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h:
 
@@ -1730,21 +1740,13 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+/usr/include/aarch64-linux-gnu/bits/sched.h:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
+/usr/include/strings.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/signal.h:
 
 /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
@@ -2093,8 +2095,6 @@ CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o: /home/mimi/mimi_ros2_ws/src/mi
 /opt/ros/humble/include/rmw/rmw/localhost.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 

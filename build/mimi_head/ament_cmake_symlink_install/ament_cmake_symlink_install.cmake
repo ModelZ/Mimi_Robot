@@ -310,8 +310,62 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "mimi_camera" "mimi_monitor" "DESTINATION" "lib/mimi_head")
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/mimi_head" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/mimi_head" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/mimi_head/environment")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/mimi_head/environment")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/mimi_head/environment")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/mimi_head/environment")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_fastrtps_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_fastrtps_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_fastrtps_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_fastrtps_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_introspection_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_introspection_c/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_introspection_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_introspection_cpp/mimi_head/" "DESTINATION" "include/mimi_head/mimi_head" "PATTERN" "*.hpp")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/mimi_head/environment")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/mimi_head/environment")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/mimi_head/environment")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/mimi_head/environment")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_python/mimi_head/mimi_head.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_python/mimi_head/mimi_head.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_py/mimi_head/" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_py/mimi_head/" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "mimi_head__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head")
 include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "mimi_head__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head")
+include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "mimi_head__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head")
+include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Angle.idl" "DESTINATION" "share/mimi_head/msg")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Angle.idl" "DESTINATION" "share/mimi_head/msg")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg" "DESTINATION" "share/mimi_head/msg")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg" "DESTINATION" "share/mimi_head/msg")
+
+# install("TARGETS" "mimi_camera" "mimi_monitor" "mimi_head_movement" "DESTINATION" "lib/mimi_head")
+include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/mimi_head/")
 ament_cmake_symlink_install_directory("/home/mimi/mimi_ros2_ws/src/mimi_head" DIRECTORY "launch" "DESTINATION" "share/mimi_head/")
@@ -351,6 +405,27 @@ ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES 
 
 # install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_index/share/ament_index/resource_index/packages/mimi_head" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_index/share/ament_index/resource_index/packages/mimi_head" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/mimi_head/cmake")
 
 # install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_core/mimi_headConfig.cmake" "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_core/mimi_headConfig-version.cmake" "DESTINATION" "share/mimi_head/cmake")
 ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_core/mimi_headConfig.cmake" "/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_core/mimi_headConfig-version.cmake" "DESTINATION" "share/mimi_head/cmake")

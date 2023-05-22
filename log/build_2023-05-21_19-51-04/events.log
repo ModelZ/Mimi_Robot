@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000905] (mimi_head) JobQueued: {'identifier': 'mimi_head', 'dependencies': OrderedDict()}
+[0.001174] (-) TimerEvent: {}
+[0.001970] (mimi_head) JobStarted: {'identifier': 'mimi_head'}
+[0.004353] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'cmake'}
+[0.010084] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'build'}
+[0.013355] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mimi/mimi_ros2_ws/build/mimi_head', '--', '-j4', '-l4'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 62143 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e24ee06c-0ca5-4a2e-96a6-10d0e8267a91.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 62143 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101843] (-) TimerEvent: {}
+[0.202742] (-) TimerEvent: {}
+[0.292107] (mimi_head) StdoutLine: {'line': b'[  8%] Built target mimi_head__rosidl_generator_c\n'}
+[0.307780] (-) TimerEvent: {}
+[0.310358] (mimi_head) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o\x1b[0m\n'}
+[0.323949] (mimi_head) StdoutLine: {'line': b'[ 17%] Built target mimi_monitor\n'}
+[0.336204] (mimi_head) StdoutLine: {'line': b'[ 20%] Built target mimi_head__cpp\n'}
+[0.408014] (-) TimerEvent: {}
+[0.509879] (-) TimerEvent: {}
+[0.512285] (mimi_head) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_symlink_mimi_head\n'}
+[0.552004] (mimi_head) StdoutLine: {'line': b'[ 28%] Built target mimi_head__rosidl_typesupport_fastrtps_c\n'}
+[0.582108] (mimi_head) StdoutLine: {'line': b'[ 37%] Built target mimi_head__rosidl_typesupport_introspection_c\n'}
+[0.610088] (-) TimerEvent: {}
+[0.711740] (-) TimerEvent: {}
+[0.720601] (mimi_head) StdoutLine: {'line': b'[ 45%] Built target mimi_head__rosidl_typesupport_c\n'}
+[0.792815] (mimi_head) StdoutLine: {'line': b'[ 54%] Built target mimi_head__rosidl_typesupport_introspection_cpp\n'}
+[0.812001] (-) TimerEvent: {}
+[0.915724] (-) TimerEvent: {}
+[0.966281] (mimi_head) StdoutLine: {'line': b'[ 62%] Built target mimi_head__rosidl_typesupport_cpp\n'}
+[1.015921] (-) TimerEvent: {}
+[1.024118] (mimi_head) StdoutLine: {'line': b'[ 71%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp\n'}
+[1.116290] (-) TimerEvent: {}
+[1.214982] (mimi_head) StdoutLine: {'line': b'[ 71%] Built target mimi_head\n'}
+[1.216730] (-) TimerEvent: {}
+[1.318448] (-) TimerEvent: {}
+[1.396116] (mimi_head) StdoutLine: {'line': b'[ 74%] Built target mimi_head__py\n'}
+[1.418622] (-) TimerEvent: {}
+[1.519744] (-) TimerEvent: {}
+[1.523259] (mimi_head) StdoutLine: {'line': b'[ 80%] Built target mimi_head__rosidl_generator_py\n'}
+[1.623696] (-) TimerEvent: {}
+[1.649899] (mimi_head) StdoutLine: {'line': b'[ 85%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext\n'}
+[1.723912] (-) TimerEvent: {}
+[1.806161] (mimi_head) StdoutLine: {'line': b'[ 91%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.827759] (-) TimerEvent: {}
+[1.853952] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext\n'}
+[1.931688] (-) TimerEvent: {}
+[2.035200] (-) TimerEvent: {}
+[2.136013] (-) TimerEvent: {}
+[2.238491] (-) TimerEvent: {}
+[2.340853] (-) TimerEvent: {}
+[2.442179] (-) TimerEvent: {}
+[2.543716] (-) TimerEvent: {}
+[2.644546] (-) TimerEvent: {}
+[2.746883] (-) TimerEvent: {}
+[2.847823] (-) TimerEvent: {}
+[2.876859] (mimi_head) StdoutLine: {'line': b'running egg_info\n'}
+[2.880437] (mimi_head) StdoutLine: {'line': b'writing mimi_head.egg-info/PKG-INFO\n'}
+[2.922682] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmimi_head/msg/angle.hpp: No such file or directory\n'}
+[2.923947] (mimi_head) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"mimi_head/msg/angle.hpp"\x1b[m\x1b[K\n'}
+[2.925221] (mimi_head) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.925881] (mimi_head) StderrLine: {'line': b'compilation terminated.\n'}
+[2.948065] (-) TimerEvent: {}
+[2.956136] (mimi_head) StdoutLine: {'line': b'writing dependency_links to mimi_head.egg-info/dependency_links.txt\n'}
+[2.957614] (mimi_head) StdoutLine: {'line': b'writing top-level names to mimi_head.egg-info/top_level.txt\n'}
+[2.971163] (mimi_head) StdoutLine: {'line': b"reading manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[2.974094] (mimi_head) StdoutLine: {'line': b"writing manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[3.048372] (-) TimerEvent: {}
+[3.103055] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_mimi_head_egg\n'}
+[3.148547] (-) TimerEvent: {}
+[3.249341] (-) TimerEvent: {}
+[3.291809] (mimi_head) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1\n'}
+[3.293500] (mimi_head) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/mimi_camera.dir/all] Error 2\n'}
+[3.295106] (mimi_head) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.305464] (mimi_head) CommandEnded: {'returncode': 2}
+[3.349574] (-) TimerEvent: {}
+[3.450327] (-) TimerEvent: {}
+[3.551091] (-) TimerEvent: {}
+[3.651869] (-) TimerEvent: {}
+[3.752712] (-) TimerEvent: {}
+[3.855121] (-) TimerEvent: {}
+[3.930195] (mimi_head) JobEnded: {'identifier': 'mimi_head', 'rc': 2}
+[4.032295] (-) TimerEvent: {}
+[4.032931] (-) EventReactorShutdown: {}

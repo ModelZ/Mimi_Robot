@@ -1,0 +1,1 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_fastrtps_cpp/mimi_head/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

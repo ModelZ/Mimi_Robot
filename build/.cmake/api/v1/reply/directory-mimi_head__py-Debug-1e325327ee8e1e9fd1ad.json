@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mimi_head__py",
+		"source" : "/home/mimi/mimi_ros2_ws/build/mimi_head__py"
+	}
+}

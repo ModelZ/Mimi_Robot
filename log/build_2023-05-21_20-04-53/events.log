@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.001042] (mimi_head) JobQueued: {'identifier': 'mimi_head', 'dependencies': OrderedDict()}
+[0.002267] (mimi_head) JobStarted: {'identifier': 'mimi_head'}
+[0.049007] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'cmake'}
+[0.052414] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'build'}
+[0.055664] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mimi/mimi_ros2_ws/build/mimi_head', '--', '-j4', '-l4'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 62143 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4d6d7711-a88b-476b-a5d2-1948be274696.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 62143 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099240] (-) TimerEvent: {}
+[0.169954] (mimi_head) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199462] (-) TimerEvent: {}
+[0.300347] (-) TimerEvent: {}
+[0.401209] (-) TimerEvent: {}
+[0.502063] (-) TimerEvent: {}
+[0.602846] (-) TimerEvent: {}
+[0.704971] (-) TimerEvent: {}
+[0.805923] (-) TimerEvent: {}
+[0.881213] (mimi_head) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.906110] (-) TimerEvent: {}
+[0.916993] (mimi_head) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.006329] (-) TimerEvent: {}
+[1.107144] (-) TimerEvent: {}
+[1.110797] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.124577] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.156815] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.207384] (-) TimerEvent: {}
+[1.213678] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.307211] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.307936] (-) TimerEvent: {}
+[1.408631] (-) TimerEvent: {}
+[1.509420] (-) TimerEvent: {}
+[1.531810] (mimi_head) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.538144] (mimi_head) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.609598] (-) TimerEvent: {}
+[1.710315] (-) TimerEvent: {}
+[1.811014] (-) TimerEvent: {}
+[1.911709] (-) TimerEvent: {}
+[2.012430] (-) TimerEvent: {}
+[2.113146] (-) TimerEvent: {}
+[2.213881] (-) TimerEvent: {}
+[2.314592] (-) TimerEvent: {}
+[2.415320] (-) TimerEvent: {}
+[2.516027] (-) TimerEvent: {}
+[2.551043] (mimi_head) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.616239] (-) TimerEvent: {}
+[2.716963] (-) TimerEvent: {}
+[2.817739] (-) TimerEvent: {}
+[2.918462] (-) TimerEvent: {}
+[3.019189] (-) TimerEvent: {}
+[3.119942] (-) TimerEvent: {}
+[3.135497] (mimi_head) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.220119] (-) TimerEvent: {}
+[3.320841] (-) TimerEvent: {}
+[3.421590] (-) TimerEvent: {}
+[3.522322] (-) TimerEvent: {}
+[3.613038] (mimi_head) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.622477] (-) TimerEvent: {}
+[3.640308] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.722650] (-) TimerEvent: {}
+[3.823478] (-) TimerEvent: {}
+[3.924722] (-) TimerEvent: {}
+[4.025827] (-) TimerEvent: {}
+[4.126600] (-) TimerEvent: {}
+[4.227346] (-) TimerEvent: {}
+[4.328082] (-) TimerEvent: {}
+[4.428912] (-) TimerEvent: {}
+[4.530015] (-) TimerEvent: {}
+[4.630803] (-) TimerEvent: {}
+[4.731655] (-) TimerEvent: {}
+[4.739156] (mimi_head) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.831815] (-) TimerEvent: {}
+[4.932614] (-) TimerEvent: {}
+[5.033431] (-) TimerEvent: {}
+[5.134139] (-) TimerEvent: {}
+[5.234833] (-) TimerEvent: {}
+[5.335930] (-) TimerEvent: {}
+[5.436879] (-) TimerEvent: {}
+[5.537658] (-) TimerEvent: {}
+[5.638562] (-) TimerEvent: {}
+[5.739252] (-) TimerEvent: {}
+[5.840128] (-) TimerEvent: {}
+[5.941004] (-) TimerEvent: {}
+[6.041706] (-) TimerEvent: {}
+[6.077523] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.141868] (-) TimerEvent: {}
+[6.242785] (-) TimerEvent: {}
+[6.344057] (-) TimerEvent: {}
+[6.444864] (-) TimerEvent: {}
+[6.545594] (-) TimerEvent: {}
+[6.616776] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.645814] (-) TimerEvent: {}
+[6.720069] (mimi_head) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.745966] (-) TimerEvent: {}
+[6.823565] (mimi_head) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.824294] (mimi_head) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.824735] (mimi_head) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.846157] (-) TimerEvent: {}
+[6.875535] (mimi_head) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.943844] (mimi_head) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.945840] (mimi_head) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.946411] (-) TimerEvent: {}
+[6.946808] (mimi_head) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.949684] (mimi_head) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.955202] (mimi_head) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.958529] (mimi_head) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.976358] (mimi_head) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.976942] (mimi_head) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.979847] (mimi_head) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.993755] (mimi_head) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.046630] (-) TimerEvent: {}
+[7.147317] (-) TimerEvent: {}
+[7.230417] (mimi_head) StdoutLine: {'line': b'-- Generating done\n'}
+[7.247484] (-) TimerEvent: {}
+[7.251656] (mimi_head) StdoutLine: {'line': b'-- Build files have been written to: /home/mimi/mimi_ros2_ws/build/mimi_head\n'}
+[7.347697] (-) TimerEvent: {}
+[7.378691] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_camera\x1b[0m\n'}
+[7.380786] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_monitor\x1b[0m\n'}
+[7.389841] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_c\x1b[0m\n'}
+[7.446635] (mimi_head) StdoutLine: {'line': b'[  8%] Built target mimi_head__rosidl_generator_c\n'}
+[7.447898] (-) TimerEvent: {}
+[7.479358] (mimi_head) StdoutLine: {'line': b'[ 11%] Built target mimi_head__cpp\n'}
+[7.548249] (-) TimerEvent: {}
+[7.570675] (mimi_head) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o\x1b[0m\n'}
+[7.579222] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.607302] (mimi_head) StdoutLine: {'line': b'[ 20%] Built target mimi_monitor\n'}
+[7.648502] (-) TimerEvent: {}
+[7.652791] (mimi_head) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_symlink_mimi_head\n'}
+[7.679238] (mimi_head) StdoutLine: {'line': b'[ 28%] Built target mimi_head__rosidl_typesupport_cpp\n'}
+[7.725357] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.731636] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.748697] (-) TimerEvent: {}
+[7.831391] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.852372] (-) TimerEvent: {}
+[7.857997] (mimi_head) StdoutLine: {'line': b'[ 45%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp\n'}
+[7.862680] (mimi_head) StdoutLine: {'line': b'[ 37%] Built target mimi_head__rosidl_typesupport_fastrtps_c\n'}
+[7.938576] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.952573] (-) TimerEvent: {}
+[7.963069] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c\x1b[0m\n'}
+[7.990575] (mimi_head) StdoutLine: {'line': b'[ 54%] Built target mimi_head__rosidl_typesupport_introspection_c\n'}
+[8.032536] (mimi_head) StdoutLine: {'line': b'[ 62%] Built target mimi_head__rosidl_typesupport_c\n'}
+[8.056354] (-) TimerEvent: {}
+[8.128560] (mimi_head) StdoutLine: {'line': b'[ 71%] Built target mimi_head__rosidl_typesupport_introspection_cpp\n'}
+[8.158340] (-) TimerEvent: {}
+[8.260432] (-) TimerEvent: {}
+[8.316538] (mimi_head) StdoutLine: {'line': b'[ 71%] Built target mimi_head\n'}
+[8.363163] (-) TimerEvent: {}
+[8.468354] (mimi_head) StdoutLine: {'line': b'[ 74%] Built target mimi_head__py\n'}
+[8.469660] (-) TimerEvent: {}
+[8.511906] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_py\x1b[0m\n'}
+[8.570211] (mimi_head) StdoutLine: {'line': b'[ 80%] Built target mimi_head__rosidl_generator_py\n'}
+[8.573679] (-) TimerEvent: {}
+[8.628931] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.643964] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.673885] (-) TimerEvent: {}
+[8.776446] (-) TimerEvent: {}
+[8.804061] (mimi_head) StdoutLine: {'line': b'[ 85%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext\n'}
+[8.812513] (mimi_head) StdoutLine: {'line': b'[ 91%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.884595] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.885335] (-) TimerEvent: {}
+[8.991411] (-) TimerEvent: {}
+[9.000537] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext\n'}
+[9.091644] (-) TimerEvent: {}
+[9.197097] (-) TimerEvent: {}
+[9.300328] (-) TimerEvent: {}
+[9.404375] (-) TimerEvent: {}
+[9.512395] (-) TimerEvent: {}
+[9.613465] (-) TimerEvent: {}
+[9.716677] (-) TimerEvent: {}
+[9.819556] (-) TimerEvent: {}
+[9.922075] (-) TimerEvent: {}
+[9.970923] (mimi_head) StdoutLine: {'line': b'running egg_info\n'}
+[9.974335] (mimi_head) StdoutLine: {'line': b'writing mimi_head.egg-info/PKG-INFO\n'}
+[9.976400] (mimi_head) StdoutLine: {'line': b'writing dependency_links to mimi_head.egg-info/dependency_links.txt\n'}
+[9.978985] (mimi_head) StdoutLine: {'line': b'writing top-level names to mimi_head.egg-info/top_level.txt\n'}
+[9.989386] (mimi_head) StdoutLine: {'line': b"reading manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[9.992457] (mimi_head) StdoutLine: {'line': b"writing manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[10.022417] (-) TimerEvent: {}
+[10.131566] (-) TimerEvent: {}
+[10.153438] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_mimi_head_egg\n'}
+[10.231757] (-) TimerEvent: {}
+[10.332532] (-) TimerEvent: {}
+[10.433298] (-) TimerEvent: {}
+[10.438729] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmimi_head/msg/angle.hpp: No such file or directory\n'}
+[10.439485] (mimi_head) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"mimi_head/msg/angle.hpp"\x1b[m\x1b[K\n'}
+[10.439969] (mimi_head) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.440439] (mimi_head) StderrLine: {'line': b'compilation terminated.\n'}
+[10.456852] (mimi_head) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1\n'}
+[10.457801] (mimi_head) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/mimi_camera.dir/all] Error 2\n'}
+[10.458834] (mimi_head) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.467931] (mimi_head) CommandEnded: {'returncode': 2}
+[10.533509] (-) TimerEvent: {}
+[10.634262] (-) TimerEvent: {}
+[10.734903] (-) TimerEvent: {}
+[10.835588] (-) TimerEvent: {}
+[10.882076] (mimi_head) JobEnded: {'identifier': 'mimi_head', 'rc': 2}
+[10.893628] (-) EventReactorShutdown: {}

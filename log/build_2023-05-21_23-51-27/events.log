@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.002199] (mimi_head) JobQueued: {'identifier': 'mimi_head', 'dependencies': OrderedDict()}
+[0.003070] (mimi_head) JobStarted: {'identifier': 'mimi_head'}
+[0.074607] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'cmake'}
+[0.074963] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'build'}
+[0.075252] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mimi/mimi_ros2_ws/build/mimi_head', '--', '-j4', '-l4'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 50886 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8dffb118-e357-492c-b05d-3e37cc9f4188.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 50886 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble')]), 'shell': False}
+[0.098590] (-) TimerEvent: {}
+[0.199460] (-) TimerEvent: {}
+[0.300440] (-) TimerEvent: {}
+[0.362969] (mimi_head) StdoutLine: {'line': b'[  8%] Built target mimi_head__rosidl_generator_c\n'}
+[0.374803] (mimi_head) StdoutLine: {'line': b'[ 10%] Built target mimi_head__cpp\n'}
+[0.400739] (-) TimerEvent: {}
+[0.463883] (mimi_head) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_mimi_head\n'}
+[0.490492] (mimi_head) StdoutLine: {'line': b'[ 16%] Built target mimi_monitor\n'}
+[0.501000] (-) TimerEvent: {}
+[0.544750] (mimi_head) StdoutLine: {'line': b'[ 24%] Built target mimi_head__rosidl_typesupport_introspection_c\n'}
+[0.545874] (mimi_head) StdoutLine: {'line': b'[ 32%] Built target mimi_head__rosidl_typesupport_fastrtps_c\n'}
+[0.601268] (-) TimerEvent: {}
+[0.618649] (mimi_head) StdoutLine: {'line': b'[ 40%] Built target mimi_head__rosidl_typesupport_c\n'}
+[0.645189] (mimi_head) StdoutLine: {'line': b'[ 48%] Built target mimi_head__rosidl_typesupport_introspection_cpp\n'}
+[0.703434] (-) TimerEvent: {}
+[0.780031] (mimi_head) StdoutLine: {'line': b'[ 56%] Built target mimi_head__rosidl_typesupport_cpp\n'}
+[0.794901] (mimi_head) StdoutLine: {'line': b'[ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp\n'}
+[0.803724] (-) TimerEvent: {}
+[0.877286] (mimi_head) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimi_camera\x1b[0m\n'}
+[0.908097] (-) TimerEvent: {}
+[0.969531] (mimi_head) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o\x1b[0m\n'}
+[1.008368] (-) TimerEvent: {}
+[1.048263] (mimi_head) StdoutLine: {'line': b'[ 72%] Built target mimi_camera\n'}
+[1.108595] (-) TimerEvent: {}
+[1.211627] (-) TimerEvent: {}
+[1.250143] (mimi_head) StdoutLine: {'line': b'[ 72%] Built target mimi_head\n'}
+[1.311907] (-) TimerEvent: {}
+[1.416010] (-) TimerEvent: {}
+[1.418409] (mimi_head) StdoutLine: {'line': b'[ 75%] Built target mimi_head__py\n'}
+[1.524036] (-) TimerEvent: {}
+[1.530539] (mimi_head) StdoutLine: {'line': b'[ 81%] Built target mimi_head__rosidl_generator_py\n'}
+[1.624439] (-) TimerEvent: {}
+[1.729471] (mimi_head) StdoutLine: {'line': b'[ 86%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.732894] (-) TimerEvent: {}
+[1.763974] (mimi_head) StdoutLine: {'line': b'[ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext\n'}
+[1.840032] (-) TimerEvent: {}
+[1.867363] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target mimi_head__rosidl_typesupport_c__pyext\n'}
+[1.940261] (-) TimerEvent: {}
+[2.041215] (-) TimerEvent: {}
+[2.142172] (-) TimerEvent: {}
+[2.243109] (-) TimerEvent: {}
+[2.344005] (-) TimerEvent: {}
+[2.447981] (-) TimerEvent: {}
+[2.549197] (-) TimerEvent: {}
+[2.557670] (mimi_head) StdoutLine: {'line': b'running egg_info\n'}
+[2.561419] (mimi_head) StdoutLine: {'line': b'writing mimi_head.egg-info/PKG-INFO\n'}
+[2.562929] (mimi_head) StdoutLine: {'line': b'writing dependency_links to mimi_head.egg-info/dependency_links.txt\n'}
+[2.564748] (mimi_head) StdoutLine: {'line': b'writing top-level names to mimi_head.egg-info/top_level.txt\n'}
+[2.579597] (mimi_head) StdoutLine: {'line': b"reading manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[2.583351] (mimi_head) StdoutLine: {'line': b"writing manifest file 'mimi_head.egg-info/SOURCES.txt'\n"}
+[2.649489] (-) TimerEvent: {}
+[2.752025] (mimi_head) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_mimi_head_egg\n'}
+[2.752966] (-) TimerEvent: {}
+[2.853885] (-) TimerEvent: {}
+[2.954711] (-) TimerEvent: {}
+[3.055757] (-) TimerEvent: {}
+[3.156857] (-) TimerEvent: {}
+[3.257786] (-) TimerEvent: {}
+[3.358894] (-) TimerEvent: {}
+[3.459955] (-) TimerEvent: {}
+[3.560843] (-) TimerEvent: {}
+[3.661773] (-) TimerEvent: {}
+[3.762778] (-) TimerEvent: {}
+[3.864115] (-) TimerEvent: {}
+[3.965203] (-) TimerEvent: {}
+[4.066304] (-) TimerEvent: {}
+[4.167427] (-) TimerEvent: {}
+[4.268666] (-) TimerEvent: {}
+[4.369589] (-) TimerEvent: {}
+[4.470634] (-) TimerEvent: {}
+[4.571523] (-) TimerEvent: {}
+[4.672573] (-) TimerEvent: {}
+[4.773486] (-) TimerEvent: {}
+[4.874487] (-) TimerEvent: {}
+[4.975616] (-) TimerEvent: {}
+[5.076870] (-) TimerEvent: {}
+[5.177962] (-) TimerEvent: {}
+[5.279116] (-) TimerEvent: {}
+[5.380359] (-) TimerEvent: {}
+[5.481291] (-) TimerEvent: {}
+[5.582341] (-) TimerEvent: {}
+[5.683392] (-) TimerEvent: {}
+[5.784738] (-) TimerEvent: {}
+[5.885659] (-) TimerEvent: {}
+[5.986636] (-) TimerEvent: {}
+[6.087803] (-) TimerEvent: {}
+[6.188994] (-) TimerEvent: {}
+[6.290100] (-) TimerEvent: {}
+[6.391209] (-) TimerEvent: {}
+[6.492248] (-) TimerEvent: {}
+[6.593431] (-) TimerEvent: {}
+[6.694450] (-) TimerEvent: {}
+[6.795551] (-) TimerEvent: {}
+[6.896509] (-) TimerEvent: {}
+[6.997606] (-) TimerEvent: {}
+[7.098571] (-) TimerEvent: {}
+[7.199736] (-) TimerEvent: {}
+[7.300773] (-) TimerEvent: {}
+[7.401818] (-) TimerEvent: {}
+[7.502760] (-) TimerEvent: {}
+[7.603908] (-) TimerEvent: {}
+[7.704851] (-) TimerEvent: {}
+[7.805830] (-) TimerEvent: {}
+[7.906969] (-) TimerEvent: {}
+[8.007949] (-) TimerEvent: {}
+[8.108856] (-) TimerEvent: {}
+[8.209783] (-) TimerEvent: {}
+[8.310743] (-) TimerEvent: {}
+[8.411943] (-) TimerEvent: {}
+[8.513015] (-) TimerEvent: {}
+[8.614129] (-) TimerEvent: {}
+[8.715057] (-) TimerEvent: {}
+[8.816024] (-) TimerEvent: {}
+[8.916958] (-) TimerEvent: {}
+[9.017865] (-) TimerEvent: {}
+[9.118886] (-) TimerEvent: {}
+[9.219902] (-) TimerEvent: {}
+[9.320957] (-) TimerEvent: {}
+[9.421963] (-) TimerEvent: {}
+[9.523107] (-) TimerEvent: {}
+[9.624052] (-) TimerEvent: {}
+[9.725021] (-) TimerEvent: {}
+[9.825964] (-) TimerEvent: {}
+[9.926973] (-) TimerEvent: {}
+[10.028023] (-) TimerEvent: {}
+[10.128983] (-) TimerEvent: {}
+[10.230078] (-) TimerEvent: {}
+[10.331059] (-) TimerEvent: {}
+[10.432023] (-) TimerEvent: {}
+[10.533106] (-) TimerEvent: {}
+[10.634113] (-) TimerEvent: {}
+[10.735114] (-) TimerEvent: {}
+[10.836246] (-) TimerEvent: {}
+[10.937195] (-) TimerEvent: {}
+[11.038166] (-) TimerEvent: {}
+[11.139191] (-) TimerEvent: {}
+[11.240246] (-) TimerEvent: {}
+[11.341188] (-) TimerEvent: {}
+[11.442232] (-) TimerEvent: {}
+[11.543319] (-) TimerEvent: {}
+[11.644315] (-) TimerEvent: {}
+[11.745319] (-) TimerEvent: {}
+[11.846227] (-) TimerEvent: {}
+[11.947224] (-) TimerEvent: {}
+[12.048333] (-) TimerEvent: {}
+[12.149281] (-) TimerEvent: {}
+[12.250430] (-) TimerEvent: {}
+[12.351608] (-) TimerEvent: {}
+[12.452509] (-) TimerEvent: {}
+[12.553496] (-) TimerEvent: {}
+[12.654452] (-) TimerEvent: {}
+[12.755446] (-) TimerEvent: {}
+[12.856633] (-) TimerEvent: {}
+[12.957632] (-) TimerEvent: {}
+[13.058636] (-) TimerEvent: {}
+[13.159745] (-) TimerEvent: {}
+[13.260749] (-) TimerEvent: {}
+[13.361845] (-) TimerEvent: {}
+[13.462805] (-) TimerEvent: {}
+[13.563796] (-) TimerEvent: {}
+[13.664900] (-) TimerEvent: {}
+[13.765835] (-) TimerEvent: {}
+[13.866945] (-) TimerEvent: {}
+[13.968032] (-) TimerEvent: {}
+[14.068985] (-) TimerEvent: {}
+[14.169956] (-) TimerEvent: {}
+[14.173518] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:123:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[14.175101] (mimi_head) StderrLine: {'line': b'  123 | }\n'}
+[14.176013] (mimi_head) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.176994] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:15:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.177700] (mimi_head) StderrLine: {'line': b'   15 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[14.178271] (mimi_head) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[14.216487] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMimiHeadMovementNode::MimiHeadMovementNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.217454] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.218501] (mimi_head) StderrLine: {'line': b'   21 |             \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<mimi_head::msg::Angle>(\n'}
+[14.219523] (mimi_head) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.220634] (mimi_head) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[14.270172] (-) TimerEvent: {}
+[14.371203] (-) TimerEvent: {}
+[14.472383] (-) TimerEvent: {}
+[14.514461] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MimiHeadMovementNode::servo_control(const Angle&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.515578] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:59:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangle_x\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[14.516433] (mimi_head) StderrLine: {'line': b'   59 |                 \x1b[01;31m\x1b[Kangle_x\x1b[m\x1b[K = msg.angle_x;\n'}
+[14.517158] (mimi_head) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[14.544649] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:60:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangle_z\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[14.545563] (mimi_head) StderrLine: {'line': b'   60 |                 \x1b[01;31m\x1b[Kangle_z\x1b[m\x1b[K = msg.angle_z;\n'}
+[14.546447] (mimi_head) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[14.552140] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:81:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpulseWidth_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.553129] (mimi_head) StderrLine: {'line': b'   81 |                 int \x1b[01;35m\x1b[KpulseWidth_x\x1b[m\x1b[K = 500 + angle_x * 2000 / 180;  // Convert angle to pulse width\n'}
+[14.553828] (mimi_head) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.555098] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:82:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpulseWidth_z\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.556604] (mimi_head) StderrLine: {'line': b'   82 |                 int \x1b[01;35m\x1b[KpulseWidth_z\x1b[m\x1b[K = 500 + angle_z * 2000 / 180;  // Convert angle to pulse width\n'}
+[14.557377] (mimi_head) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.557999] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MimiHeadMovementNode::sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.558754] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:104:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksig\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.559435] (mimi_head) StderrLine: {'line': b'  104 | void sigint_handler(\x1b[01;35m\x1b[Kint sig\x1b[m\x1b[K)\n'}
+[14.560243] (mimi_head) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[14.560902] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MimiHeadMovementNode::main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.561553] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:114:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MimiHeadMovementNode::sigint_handler(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.562295] (mimi_head) StderrLine: {'line': b'  114 |     signal(SIGINT, \x1b[01;31m\x1b[Ksigint_handler\x1b[m\x1b[K);\n'}
+[14.562925] (mimi_head) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.563553] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:104:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.564261] (mimi_head) StderrLine: {'line': b'  104 | void \x1b[01;36m\x1b[Ksigint_handler\x1b[m\x1b[K(int sig)\n'}
+[14.564909] (mimi_head) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.572582] (-) TimerEvent: {}
+[14.577461] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:\x1b[m\x1b[K At global scope:\n'}
+[14.578742] (mimi_head) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:123:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[14.579463] (mimi_head) StderrLine: {'line': b'  123 | }\n'}
+[14.580284] (mimi_head) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.672827] (-) TimerEvent: {}
+[14.774033] (-) TimerEvent: {}
+[14.874999] (-) TimerEvent: {}
+[14.976136] (-) TimerEvent: {}
+[15.077148] (-) TimerEvent: {}
+[15.178110] (-) TimerEvent: {}
+[15.279200] (-) TimerEvent: {}
+[15.380202] (-) TimerEvent: {}
+[15.481263] (-) TimerEvent: {}
+[15.582170] (-) TimerEvent: {}
+[15.683118] (-) TimerEvent: {}
+[15.784200] (-) TimerEvent: {}
+[15.885151] (-) TimerEvent: {}
+[15.986252] (-) TimerEvent: {}
+[16.087188] (-) TimerEvent: {}
+[16.188248] (-) TimerEvent: {}
+[16.289220] (-) TimerEvent: {}
+[16.390191] (-) TimerEvent: {}
+[16.491266] (-) TimerEvent: {}
+[16.592183] (-) TimerEvent: {}
+[16.693250] (-) TimerEvent: {}
+[16.794174] (-) TimerEvent: {}
+[16.895264] (-) TimerEvent: {}
+[16.996197] (-) TimerEvent: {}
+[17.097153] (-) TimerEvent: {}
+[17.198239] (-) TimerEvent: {}
+[17.299210] (-) TimerEvent: {}
+[17.400158] (-) TimerEvent: {}
+[17.501076] (-) TimerEvent: {}
+[17.602042] (-) TimerEvent: {}
+[17.702957] (-) TimerEvent: {}
+[17.803973] (-) TimerEvent: {}
+[17.904928] (-) TimerEvent: {}
+[18.006052] (-) TimerEvent: {}
+[18.107016] (-) TimerEvent: {}
+[18.208114] (-) TimerEvent: {}
+[18.309066] (-) TimerEvent: {}
+[18.410070] (-) TimerEvent: {}
+[18.511006] (-) TimerEvent: {}
+[18.611965] (-) TimerEvent: {}
+[18.713080] (-) TimerEvent: {}
+[18.814049] (-) TimerEvent: {}
+[18.915058] (-) TimerEvent: {}
+[19.016013] (-) TimerEvent: {}
+[19.116992] (-) TimerEvent: {}
+[19.218081] (-) TimerEvent: {}
+[19.319174] (-) TimerEvent: {}
+[19.420209] (-) TimerEvent: {}
+[19.521194] (-) TimerEvent: {}
+[19.622111] (-) TimerEvent: {}
+[19.723065] (-) TimerEvent: {}
+[19.824198] (-) TimerEvent: {}
+[19.925121] (-) TimerEvent: {}
+[20.026202] (-) TimerEvent: {}
+[20.127276] (-) TimerEvent: {}
+[20.228464] (-) TimerEvent: {}
+[20.329376] (-) TimerEvent: {}
+[20.430472] (-) TimerEvent: {}
+[20.531418] (-) TimerEvent: {}
+[20.632634] (-) TimerEvent: {}
+[20.733608] (-) TimerEvent: {}
+[20.834802] (-) TimerEvent: {}
+[20.935722] (-) TimerEvent: {}
+[21.036723] (-) TimerEvent: {}
+[21.137749] (-) TimerEvent: {}
+[21.238795] (-) TimerEvent: {}
+[21.339937] (-) TimerEvent: {}
+[21.440881] (-) TimerEvent: {}
+[21.541936] (-) TimerEvent: {}
+[21.643034] (-) TimerEvent: {}
+[21.744378] (-) TimerEvent: {}
+[21.845327] (-) TimerEvent: {}
+[21.946378] (-) TimerEvent: {}
+[22.047572] (-) TimerEvent: {}
+[22.148574] (-) TimerEvent: {}
+[22.249742] (-) TimerEvent: {}
+[22.350923] (-) TimerEvent: {}
+[22.452157] (-) TimerEvent: {}
+[22.553235] (-) TimerEvent: {}
+[22.654299] (-) TimerEvent: {}
+[22.755389] (-) TimerEvent: {}
+[22.856545] (-) TimerEvent: {}
+[22.957519] (-) TimerEvent: {}
+[23.058547] (-) TimerEvent: {}
+[23.159466] (-) TimerEvent: {}
+[23.260442] (-) TimerEvent: {}
+[23.361420] (-) TimerEvent: {}
+[23.462427] (-) TimerEvent: {}
+[23.563527] (-) TimerEvent: {}
+[23.664528] (-) TimerEvent: {}
+[23.765673] (-) TimerEvent: {}
+[23.866654] (-) TimerEvent: {}
+[23.967638] (-) TimerEvent: {}
+[24.068634] (-) TimerEvent: {}
+[24.169680] (-) TimerEvent: {}
+[24.270697] (-) TimerEvent: {}
+[24.371655] (-) TimerEvent: {}
+[24.472809] (-) TimerEvent: {}
+[24.573793] (-) TimerEvent: {}
+[24.674908] (-) TimerEvent: {}
+[24.775861] (-) TimerEvent: {}
+[24.876859] (-) TimerEvent: {}
+[24.977885] (-) TimerEvent: {}
+[25.078729] (-) TimerEvent: {}
+[25.179620] (-) TimerEvent: {}
+[25.280679] (-) TimerEvent: {}
+[25.298513] (mimi_head) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1\n'}
+[25.299686] (mimi_head) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2\n'}
+[25.300876] (mimi_head) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.309171] (mimi_head) CommandEnded: {'returncode': 2}
+[25.381355] (-) TimerEvent: {}
+[25.483718] (-) TimerEvent: {}
+[25.585111] (-) TimerEvent: {}
+[25.686525] (-) TimerEvent: {}
+[25.789159] (-) TimerEvent: {}
+[25.822604] (mimi_head) JobEnded: {'identifier': 'mimi_head', 'rc': 2}
+[25.836343] (-) EventReactorShutdown: {}

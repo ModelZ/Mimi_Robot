@@ -1,0 +1,8 @@
+setup.py
+mimi_head/__init__.py
+mimi_head.egg-info/PKG-INFO
+mimi_head.egg-info/SOURCES.txt
+mimi_head.egg-info/dependency_links.txt
+mimi_head.egg-info/top_level.txt
+mimi_head/msg/__init__.py
+mimi_head/msg/_angle.py

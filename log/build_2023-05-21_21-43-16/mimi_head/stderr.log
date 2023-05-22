@@ -1,0 +1,15 @@
+/usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `main':
+mimi_head_movement.cpp:(.text+0x17c): undefined reference to `gpioTerminate'
+/usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `MimiHeadMovementNode::MimiHeadMovementNode()':
+mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x1bc): undefined reference to `gpioInitialise'
+/usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x318): undefined reference to `gpioSetMode'
+/usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x32c): undefined reference to `gpioSetMode'
+/usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNodeC2Ev[_ZN20MimiHeadMovementNodeC5Ev]+0x484): undefined reference to `gpioTerminate'
+/usr/bin/ld: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: in function `MimiHeadMovementNode::servo_control(mimi_head::msg::Angle_<std::allocator<void> > const&)':
+mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x3ac): undefined reference to `gpioServo'
+/usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x3c4): undefined reference to `gpioServo'
+/usr/bin/ld: mimi_head_movement.cpp:(.text._ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE[_ZN20MimiHeadMovementNode13servo_controlERKN9mimi_head3msg6Angle_ISaIvEEE]+0x51c): undefined reference to `gpioTerminate'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:152: mimi_head_movement] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
