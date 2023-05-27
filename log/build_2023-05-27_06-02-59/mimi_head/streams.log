@@ -1,0 +1,31 @@
+[0.147s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.710s] [  2%] Built target mimi_head__cpp
+[0.733s] [ 10%] Built target mimi_head__rosidl_generator_c
+[0.752s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[0.855s] [ 16%] Built target mimi_monitor
+[0.898s] [ 24%] Built target mimi_head__rosidl_typesupport_cpp
+[0.928s] [ 32%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[0.953s] [ 40%] Built target mimi_head__rosidl_typesupport_introspection_c
+[1.079s] [ 48%] Built target mimi_head__rosidl_typesupport_c
+[1.135s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[1.154s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[1.373s] [ 62%] Built target mimi_head_movement
+[1.398s] [ 70%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[1.479s] [ 72%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[1.561s] [ 72%] Built target mimi_head
+[1.767s] [ 75%] Built target mimi_head__py
+[2.005s] [ 81%] Built target mimi_head__rosidl_generator_py
+[2.265s] [ 86%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[2.290s] [ 91%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[2.517s] [ 97%] Built target mimi_head__rosidl_typesupport_c__pyext
+[4.211s] running egg_info
+[4.217s] writing mimi_head.egg-info/PKG-INFO
+[4.223s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[4.234s] writing top-level names to mimi_head.egg-info/top_level.txt
+[4.270s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[4.271s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[4.522s] [ 97%] Built target ament_cmake_python_build_mimi_head_egg
+[22.282s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[22.291s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:283:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.292s]   283 | void sigint_handler([01;35m[Kint sig[m[K)
+[22.292s]       |                     [01;35m[K~~~~^~~[m[K

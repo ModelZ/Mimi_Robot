@@ -55,6 +55,7 @@ int main() {
             return 1;
         }
 
+
         // Print out angle_x and angle_y
         std::cout << "Servo angle_x set: " << angle_x << std::endl;
         std::cout << "Servo angle_z set: " << angle_z << std::endl;

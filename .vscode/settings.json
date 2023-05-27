@@ -84,5 +84,6 @@
         "variant": "cpp",
         "*.ipp": "cpp",
         "any": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

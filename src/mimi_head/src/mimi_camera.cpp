@@ -40,6 +40,8 @@ class MimiCameraNode : public rclcpp::Node
             // create new parameter
             this->declare_parameter("cam_width", cam_width);
             this->declare_parameter("cam_height", cam_height);
+            this->declare_parameter("ratio_x", 0.05);
+            this->declare_parameter("ratio_z", 0.02);
 
             thread mimi_cam(std::bind(&MimiCameraNode::mimi_camera, this));
 
@@ -99,7 +101,9 @@ class MimiCameraNode : public rclcpp::Node
 
                 // Convert Image to gray image
                 Mat grayImage;
-                cvtColor(videoImage, grayImage, COLOR_BGR2GRAY);
+                
+                if(!videoImage.empty())
+                    cvtColor(videoImage, grayImage, COLOR_BGR2GRAY);
 
                 if (face_cascade.empty()) {
                     std::cerr << "Error: face_cascade is empty" << std::endl;
@@ -140,8 +144,15 @@ class MimiCameraNode : public rclcpp::Node
                     RCLCPP_INFO(this->get_logger(), "found closest face at: {%d, %d}, Center: {%d, %d}", closest_face_rect.x, closest_face_rect.y, center.x, center.y);
                     
                     // publish angle
-                    this->pub_angle();
+                    if(!is_timer_active)
+                        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&MimiCameraNode::pub_angle, this));
+                    is_timer_active = true;
+                    // this->pub_angle();
                 }   
+                else if(is_timer_active){
+                    timer_->cancel();
+                    is_timer_active = false;
+                } 
 
 
                 //call publisher
@@ -167,6 +178,8 @@ class MimiCameraNode : public rclcpp::Node
 
             int cam_width = this->get_parameter("cam_width").as_int();
             int cam_height = this->get_parameter("cam_height").as_int();
+            float ratio_x = this->get_parameter("ratio_x").as_double();
+            float ratio_z = this->get_parameter("ratio_z").as_double();
             float center_cam_width = (float)cam_width / 2.0;
             float center_cam_height = (float)cam_height / 2.0;
 
@@ -180,11 +193,11 @@ class MimiCameraNode : public rclcpp::Node
 
             if(diff_px_x > 0){ // destination is right side 
             
-                angle_to_move_x = current_angle_x + ((diff_px_x / center_cam_width) * 90.0); // angle to move in x axis
+                angle_to_move_x = current_angle_x + ((diff_px_x / center_cam_width) * 90.0) * ratio_x; // angle to move in x axis
 
             }else if(diff_px_x < 0){ // destination is left side 
             
-                angle_to_move_x = current_angle_x - ((abs(diff_px_x) / center_cam_width) * 90.0); // angle to move in x axis
+                angle_to_move_x = current_angle_x - ((abs(diff_px_x) / center_cam_width) * 90.0) * ratio_x; // angle to move in x axis
 
             }else{ // destination is current position
                 angle_to_move_x = current_angle_x;
@@ -200,11 +213,11 @@ class MimiCameraNode : public rclcpp::Node
 
             if(diff_px_z > 0){ // destination is above
 
-                angle_to_move_z = current_angle_z + ((diff_px_z / center_cam_height) * 90.0); // angle to move in z axis
+                angle_to_move_z = current_angle_z + ((diff_px_z / center_cam_height) * 90.0 ) * ratio_z; // angle to move in z axis
 
             } else if(diff_px_z < 0){ // destination is below
 
-                angle_to_move_z = current_angle_z - ((abs(diff_px_z) / center_cam_height) * 90.0); // angle to move in z axis
+                angle_to_move_z = current_angle_z - ((abs(diff_px_z) / center_cam_height) * 90.0) * ratio_z; // angle to move in z axis
 
             }else { // destination is current position
                 angle_to_move_z = current_angle_z;
@@ -250,17 +263,20 @@ class MimiCameraNode : public rclcpp::Node
             // publish angle message
             angle_publisher_->publish(msg_angle);
 
-            // // //set new current position
-            // current_angle_x = angle_to_move_x;
-            // current_angle_z = angle_to_move_z;
+            // set new current position
+            current_angle_x = angle_to_move_x;
+            current_angle_z = angle_to_move_z;
+            
 
             
         }
 
         float current_angle_x = 90.0;
         float current_angle_z = 90.0;
+        bool is_timer_active = false;
         rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr cam_publisher_;
         rclcpp::Publisher<mimi_head::msg::Angle>::SharedPtr angle_publisher_;
+        rclcpp::TimerBase::SharedPtr timer_;
 
 };
 
