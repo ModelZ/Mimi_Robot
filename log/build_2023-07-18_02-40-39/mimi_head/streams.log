@@ -1,0 +1,58 @@
+[0.078s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.845s] [  2%] Built target mimi_head__cpp
+[0.866s] [ 10%] Built target mimi_head__rosidl_generator_c
+[0.881s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[0.886s] [ 16%] Built target mimi_monitor
+[0.983s] [ 24%] Built target mimi_head__rosidl_typesupport_cpp
+[0.992s] [ 32%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.007s] [ 40%] Built target mimi_head__rosidl_typesupport_introspection_c
+[1.009s] [ 48%] Built target mimi_head__rosidl_typesupport_c
+[1.106s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[1.248s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[1.300s] [ 59%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[1.345s] [ 62%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[1.479s] [ 70%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[1.615s] [ 70%] Built target mimi_head
+[1.900s] [ 72%] Built target mimi_head__py
+[2.165s] [ 78%] Built target mimi_head__rosidl_generator_py
+[2.448s] [ 83%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[2.773s] [ 89%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[3.068s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[3.809s] running egg_info
+[3.816s] writing mimi_head.egg-info/PKG-INFO
+[3.816s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[3.817s] writing top-level names to mimi_head.egg-info/top_level.txt
+[3.833s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.836s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[4.024s] [ 94%] Built target ament_cmake_python_build_mimi_head_egg
+[16.238s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::movement_control(const Movement&)[m[K’:
+[16.242s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:56:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.244s]    56 |             int [01;35m[Kspeed_ms[m[K = 10;
+[16.245s]       |                 [01;35m[K^~~~~~~~[m[K
+[16.266s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[16.269s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:146:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.272s]   146 | void sigint_handler([01;35m[Kint sig[m[K)
+[16.276s]       |                     [01;35m[K~~~~^~~[m[K
+[18.448s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_movement()[m[K’:
+[18.449s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:181:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.450s]   181 |             const float [01;35m[KMAXIMUM_ANGLE_X[m[K = 180.0;
+[18.451s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.451s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:182:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.452s]   182 |             const float [01;35m[KMINIMUM_ANGLE_X[m[K = 0.0;
+[18.453s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.454s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:183:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.455s]   183 |             const float [01;35m[KMAXIMUM_ANGLE_Z[m[K = 170.0;
+[18.455s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.456s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:184:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.457s]   184 |             const float [01;35m[KMINIMUM_ANGLE_Z[m[K = 45.0;
+[18.457s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.458s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:188:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.459s]   188 |             float [01;35m[Kratio_x[m[K = this->get_parameter("ratio_x").as_double();
+[18.460s]       |                   [01;35m[K^~~~~~~[m[K
+[18.460s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:189:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.461s]   189 |             float [01;35m[Kratio_z[m[K = this->get_parameter("ratio_z").as_double();
+[18.462s]       |                   [01;35m[K^~~~~~~[m[K
+[18.464s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[18.465s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:250:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.465s]   250 | void sigint_handler([01;35m[Kint sig[m[K)
+[18.466s]       |                     [01;35m[K~~~~^~~[m[K

@@ -686,8 +686,8 @@ CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/angle.hpp
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/angle__traits.hpp
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/movement.hpp
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/movement__struct.hpp
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/movement__builder.hpp
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_cpp/mimi_head/msg/detail/movement__traits.hpp
 

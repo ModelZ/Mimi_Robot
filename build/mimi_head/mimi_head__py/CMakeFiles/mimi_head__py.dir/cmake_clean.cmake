@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/mimi_head/msg/__init__.py"
-  "../rosidl_generator_py/mimi_head/msg/_angle.py"
-  "../rosidl_generator_py/mimi_head/msg/_angle_s.c"
+  "../rosidl_generator_py/mimi_head/msg/_movement.py"
+  "../rosidl_generator_py/mimi_head/msg/_movement_s.c"
   "CMakeFiles/mimi_head__py"
 )
 

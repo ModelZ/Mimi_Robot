@@ -3,7 +3,7 @@
 #include <pigpio.h>
 
 #include "rclcpp/rclcpp.hpp"
-#include "mimi_head/msg/angle.hpp"
+#include "mimi_head/msg/movement.hpp"
 
 using namespace std;
 
@@ -18,8 +18,8 @@ class MimiHeadMovementNode : public rclcpp::Node // Create node class
         {
             // create subscription
             // this->create_subscription<$msg_type>($topic_name, $QoS, $servo_control);
-            subscription_ = this->create_subscription<mimi_head::msg::Angle>(
-                "head_movement_angle", 10, std::bind(&MimiHeadMovementNode::servo_control, this, std::placeholders::_1)
+            subscription_ = this->create_subscription<mimi_head::msg::Movement>(
+                "head_movement", 10, std::bind(&MimiHeadMovementNode::movement_control, this, std::placeholders::_1)
             );
 
              //Error gpioInitialise() check
@@ -36,14 +36,13 @@ class MimiHeadMovementNode : public rclcpp::Node // Create node class
             }
 
             // initialize face
-            mimi_head::msg::Angle init_angle;
-            init_angle.angle_x = 90;
-            init_angle.angle_z = 90;
-
-            servo_control(init_angle);
+            angle_x = 90;
+            angle_z = 90;
+            servoX_control();
+            servoZ_control();
 
             // //servo control thread
-            // thread servo_ctl(std::bind(&MimiHeadMovementNode::servo_control, this, std::placeholders::_1), mimi_head::msg::Angle());
+            // thread servo_ctl(std::bind(&MimiHeadMovementNode::servo_control, this, std::placeholders::_1), mimi_head::msg::Movement());
 
             // servo_ctl.join();
 
@@ -52,15 +51,47 @@ class MimiHeadMovementNode : public rclcpp::Node // Create node class
     
     private:
 
-        void servo_control(const mimi_head::msg::Angle & msg) //subscriptor method with msg recieved
+        void movement_control(const mimi_head::msg::Movement & msg)
         {
-            // while (true)
-            // {
-                angle_x = msg.angle_x;
-                angle_z = msg.angle_z;
+            int speed_ms = 10;
+            move_x = msg.pos_x; // move left or right direction
+            move_z = msg.pos_z; // move up or down direction
 
+            // no face detect
+            if(move_x != "unknown" && move_z != "unknown")
+            {
+                // move left or right
+                if(move_x != "ok")
+                {
+                    if(move_x == "left"){
+                        --angle_x;
+                        servoX_control();
+                    }else if(move_x == "right"){
+                        ++angle_x;
+                        servoX_control();
+                    }
+                }
+                
+                // move up or down
+                if(move_z != "ok")
+                {
+                    if(move_z == "up"){
+                        ++angle_z;
+                        servoZ_control();
+                    }else if(move_z == "down"){
+                        --angle_z;
+                        servoZ_control();
+                    }
+                }            
+            }
 
-                // Limit of angle_x and angle_z
+            
+        }
+
+        void servoX_control() //subscriptor method with msg recieved
+        {
+
+                // Limit of angle_x
                 if (angle_x < 0 || angle_x > 180) {
 
                     RCLCPP_WARN(this->get_logger(),"[angle_X] %d is out of bound", angle_x);  
@@ -70,6 +101,25 @@ class MimiHeadMovementNode : public rclcpp::Node // Create node class
 
                 }
 
+                int pulseWidth_x = 500 + angle_x * 2000 / 180;  // Convert movement to pulse width
+
+                //Error gpioServo() check and turn motor at specific movement
+                if (gpioServo(ServoX_Pin, pulseWidth_x) != 0) {
+                    RCLCPP_ERROR(this->get_logger(),"Failed to set servo pulse width.");
+                    gpioTerminate();
+                    exit(3);
+                }
+
+                RCLCPP_INFO(this->get_logger(), "[angle_x]: %d", angle_x);
+
+            
+        }
+
+        void servoZ_control() //subscriptor method with msg recieved
+        {
+
+                // Limit of angle_z
+
                 if (angle_z < 45 || angle_z > 170) {
 
                     RCLCPP_WARN(this->get_logger(),"[angle_Z] %d is out of bound", angle_z); 
@@ -78,27 +128,22 @@ class MimiHeadMovementNode : public rclcpp::Node // Create node class
                     if(angle_z > 170) angle_z = 170;
                 }
 
-                int pulseWidth_x = 500 + angle_x * 2000 / 180;  // Convert angle to pulse width
-                int pulseWidth_z = 500 + angle_z * 2000 / 180;  // Convert angle to pulse width
+                int pulseWidth_z = 500 + angle_z * 2000 / 180;  // Convert movement to pulse width
 
-                //Error gpioServo() check and turn motor at specific angle
-                if (gpioServo(ServoX_Pin, pulseWidth_x) != 0 || gpioServo(ServoZ_Pin, pulseWidth_z)) {
+                //Error gpioServo() check and turn motor at specific movement
+                if (gpioServo(ServoZ_Pin, pulseWidth_z) != 0) {
                     RCLCPP_ERROR(this->get_logger(),"Failed to set servo pulse width.");
                     gpioTerminate();
                     exit(3);
                 }
 
-                RCLCPP_INFO(this->get_logger(), "[angle_x]: %d [angle_z]: %d", angle_x, angle_z);
-
-
-            // }
-
-            // gpioTerminate();
-            
+                RCLCPP_INFO(this->get_logger(), "[angle_z]: %d", angle_z);
         }
-        
+
+            
         int angle_x, angle_z;
-        rclcpp::Subscription<mimi_head::msg::Angle>::SharedPtr subscription_;
+        string move_x, move_z;
+        rclcpp::Subscription<mimi_head::msg::Movement>::SharedPtr subscription_;
 
 }; 
 

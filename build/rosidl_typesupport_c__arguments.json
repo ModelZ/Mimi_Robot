@@ -3,7 +3,7 @@
   "output_dir": "/home/mimi/mimi_ros2_ws/build/rosidl_typesupport_c/mimi_head",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head:msg/Angle.idl"
+    "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head:msg/Movement.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
@@ -12,6 +12,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head/msg/Angle.idl"
+    "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head/msg/Movement.idl"
   ]
 }

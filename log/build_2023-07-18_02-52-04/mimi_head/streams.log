@@ -1,0 +1,176 @@
+[0.196s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.801s] [  2%] Built target mimi_head__cpp
+[0.999s] [  8%] Built target mimi_monitor
+[1.166s] [ 16%] Built target mimi_head__rosidl_typesupport_cpp
+[1.346s] [ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.529s] [ 32%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[1.629s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[1.814s] [ 35%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[29.645s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_movement()[m[K’:
+[29.647s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:181:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.648s]   181 |             const float [01;35m[KMAXIMUM_ANGLE_X[m[K = 180.0;
+[29.650s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.655s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:182:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.660s]   182 |             const float [01;35m[KMINIMUM_ANGLE_X[m[K = 0.0;
+[29.664s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.673s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:183:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.677s]   183 |             const float [01;35m[KMAXIMUM_ANGLE_Z[m[K = 170.0;
+[29.685s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.691s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:184:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.695s]   184 |             const float [01;35m[KMINIMUM_ANGLE_Z[m[K = 45.0;
+[29.700s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.708s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:188:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.712s]   188 |             float [01;35m[Kratio_x[m[K = this->get_parameter("ratio_x").as_double();
+[29.716s]       |                   [01;35m[K^~~~~~~[m[K
+[29.723s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:189:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.725s]   189 |             float [01;35m[Kratio_z[m[K = this->get_parameter("ratio_z").as_double();
+[29.727s]       |                   [01;35m[K^~~~~~~[m[K
+[29.730s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[29.733s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:250:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.735s]   250 | void sigint_handler([01;35m[Kint sig[m[K)
+[29.738s]       |                     [01;35m[K~~~~^~~[m[K
+[53.158s] [ 37%] [32m[1mLinking CXX executable mimi_camera[0m
+[58.883s] [ 37%] Built target mimi_camera
+[58.992s] [35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[59.200s] [ 40%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[80.860s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::movement_control(const Movement&)[m[K’:
+[80.863s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:56:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[80.866s]    56 |             int [01;35m[Kspeed_ms[m[K = 10;
+[80.868s]       |                 [01;35m[K^~~~~~~~[m[K
+[80.885s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[80.887s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:146:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[80.890s]   146 | void sigint_handler([01;35m[Kint sig[m[K)
+[80.893s]       |                     [01;35m[K~~~~^~~[m[K
+[129.312s] [ 43%] [32m[1mLinking CXX executable mimi_head_movement[0m
+[132.088s] [ 43%] Built target mimi_head_movement
+[132.337s] [ 43%] Built target ament_cmake_python_symlink_mimi_head
+[132.535s] [ 51%] Built target mimi_head__rosidl_generator_c
+[135.798s] running egg_info
+[135.803s] writing mimi_head.egg-info/PKG-INFO
+[135.805s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[135.807s] writing top-level names to mimi_head.egg-info/top_level.txt
+[135.831s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[135.841s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[136.093s] [ 51%] Built target ament_cmake_python_build_mimi_head_egg
+[136.251s] [ 59%] Built target mimi_head__rosidl_typesupport_c
+[136.388s] [ 67%] Built target mimi_head__rosidl_typesupport_introspection_c
+[136.576s] [ 75%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[136.741s] [ 75%] Built target mimi_head
+[136.933s] [ 78%] Built target mimi_head__py
+[137.104s] [ 83%] Built target mimi_head__rosidl_generator_py
+[137.277s] [ 89%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[137.506s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[137.742s] [100%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[137.843s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[138.708s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mimi/mimi_ros2_ws/build/mimi_head
+[138.784s] -- Install configuration: ""
+[138.797s] -- Execute custom install script
+[138.805s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/rosidl_interfaces/mimi_head
+[138.817s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/angle.h
+[138.824s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__functions.h
+[138.827s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__struct.h
+[138.832s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__type_support.h
+[138.833s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__functions.h
+[138.834s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__struct.h
+[138.835s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__type_support.h
+[138.840s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/movement.h
+[138.841s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_generator_c__visibility_control.h
+[138.848s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/library_path.sh
+[138.849s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/library_path.dsv
+[138.856s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_fastrtps_c.h
+[138.857s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__rosidl_typesupport_fastrtps_c.h
+[138.858s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[138.865s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/angle.hpp
+[138.866s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__builder.hpp
+[138.872s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__struct.hpp
+[138.873s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__traits.hpp
+[138.873s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__builder.hpp
+[138.876s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__struct.hpp
+[138.878s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__traits.hpp
+[138.881s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/movement.hpp
+[138.890s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[138.891s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp
+[138.894s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[138.900s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_introspection_c.h
+[138.901s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__rosidl_typesupport_introspection_c.h
+[138.904s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[138.909s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[138.911s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/include/mimi_head/mimi_head/msg/detail/movement__rosidl_typesupport_introspection_cpp.hpp
+[138.914s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/pythonpath.sh
+[138.915s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/pythonpath.dsv
+[138.919s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/PKG-INFO
+[138.924s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/SOURCES.txt
+[138.927s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/dependency_links.txt
+[138.929s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head-0.0.0-py3.10.egg-info/top_level.txt
+[138.965s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/__init__.py
+[138.972s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_c.c
+[138.980s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_fastrtps_c.c
+[138.982s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/_mimi_head_s.ep.rosidl_typesupport_introspection_c.c
+[138.985s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/libmimi_head__rosidl_generator_py.so
+[138.987s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[138.993s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[138.994s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[138.998s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/__init__.py
+[139.000s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_angle.py
+[139.001s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_angle_s.c
+[139.003s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_movement.py
+[139.006s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg/_movement_s.c
+[139.014s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[139.017s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[139.020s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/mimi_head_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[139.025s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/msg/Movement.idl
+[139.028s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/msg/Movement.msg
+[139.033s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_camera
+[139.037s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_monitor
+[139.040s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/mimi_head/mimi_head_movement
+[139.045s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head//launch/main.launch.py
+[139.049s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/package_run_dependencies/mimi_head
+[139.055s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/parent_prefix_path/mimi_head
+[139.059s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/ament_prefix_path.sh
+[139.062s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/ament_prefix_path.dsv
+[139.064s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/path.sh
+[139.068s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/environment/path.dsv
+[139.069s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.bash
+[139.081s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.sh
+[139.085s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.zsh
+[139.089s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/local_setup.dsv
+[139.091s] -- Symlinking: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.dsv
+[139.190s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/ament_index/resource_index/packages/mimi_head
+[139.191s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake-extras.cmake
+[139.195s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_include_directories-extras.cmake
+[139.198s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_libraries-extras.cmake
+[139.199s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_targets-extras.cmake
+[139.202s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[139.206s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/ament_cmake_export_dependencies-extras.cmake
+[139.207s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[139.211s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_headConfig.cmake
+[139.214s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_headConfig-version.cmake
+[139.215s] -- Up-to-date symlink: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/package.xml
+[139.220s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_generator_c.so
+[139.227s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_fastrtps_c.so
+[139.233s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_fastrtps_cpp.so
+[139.240s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_introspection_c.so
+[139.245s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_c.so
+[139.253s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_introspection_cpp.so
+[139.257s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_typesupport_cpp.so
+[139.550s] Listing '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head'...
+[139.557s] Listing '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages/mimi_head/msg'...
+[139.584s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/lib/libmimi_head__rosidl_generator_py.so
+[139.588s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cExport.cmake
+[139.591s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cExport-noconfig.cmake
+[139.593s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cExport.cmake
+[139.597s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[139.601s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_cppExport.cmake
+[139.609s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cppExport.cmake
+[139.611s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[139.612s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cExport.cmake
+[139.614s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[139.615s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cExport.cmake
+[139.620s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cExport-noconfig.cmake
+[139.620s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cppExport.cmake
+[139.630s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[139.638s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cppExport.cmake
+[139.639s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/mimi_head__rosidl_typesupport_cppExport-noconfig.cmake
+[139.648s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_pyExport.cmake
+[139.650s] -- Up-to-date: /home/mimi/mimi_ros2_ws/install/mimi_head/share/mimi_head/cmake/export_mimi_head__rosidl_generator_pyExport-noconfig.cmake
+[139.677s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mimi/mimi_ros2_ws/build/mimi_head

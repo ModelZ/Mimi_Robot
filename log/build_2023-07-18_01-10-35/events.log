@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (mimi_head) JobQueued: {'identifier': 'mimi_head', 'dependencies': OrderedDict()}
+[0.000788] (mimi_head) JobStarted: {'identifier': 'mimi_head'}
+[0.069361] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'cmake'}
+[0.074646] (mimi_head) JobProgress: {'identifier': 'mimi_head', 'progress': 'build'}
+[0.078021] (mimi_head) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mimi/mimi_ros2_ws/build/mimi_head', '--', '-j4', '-l4'], 'cwd': '/home/mimi/mimi_ros2_ws/build/mimi_head', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mimi'), ('SSH_CLIENT', '192.168.1.102 55000 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mimi/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/mimi/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mimi'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e5d2eefb-8843-4fe4-979b-9873e6983c7c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mimi/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mimi/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mimi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mimi/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/bin/remote-cli:/home/mimi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bb3d78543e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mimi/mimi_ros2_ws/build/mimi_head'), ('SSH_CONNECTION', '192.168.1.102 55000 192.168.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mimi/mimi_ros2_ws/install/mimi_head/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mimi/mimi_ros2_ws/install/mimi_head:/opt/ros/humble')]), 'shell': False}
+[0.095634] (-) TimerEvent: {}
+[0.197377] (-) TimerEvent: {}
+[0.298243] (-) TimerEvent: {}
+[0.327892] (mimi_head) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.398485] (-) TimerEvent: {}
+[0.499543] (-) TimerEvent: {}
+[0.600607] (-) TimerEvent: {}
+[0.701449] (-) TimerEvent: {}
+[0.802326] (-) TimerEvent: {}
+[0.903509] (-) TimerEvent: {}
+[1.004453] (-) TimerEvent: {}
+[1.105579] (-) TimerEvent: {}
+[1.187955] (mimi_head) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.205905] (-) TimerEvent: {}
+[1.267033] (mimi_head) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.306080] (-) TimerEvent: {}
+[1.406922] (-) TimerEvent: {}
+[1.507825] (-) TimerEvent: {}
+[1.508595] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.529431] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.568114] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.608027] (-) TimerEvent: {}
+[1.639270] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.708379] (-) TimerEvent: {}
+[1.745005] (mimi_head) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.808632] (-) TimerEvent: {}
+[1.909657] (-) TimerEvent: {}
+[2.010598] (-) TimerEvent: {}
+[2.111537] (-) TimerEvent: {}
+[2.128795] (mimi_head) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.139511] (mimi_head) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.211732] (-) TimerEvent: {}
+[2.312596] (-) TimerEvent: {}
+[2.413602] (-) TimerEvent: {}
+[2.514389] (-) TimerEvent: {}
+[2.615182] (-) TimerEvent: {}
+[2.716081] (-) TimerEvent: {}
+[2.816899] (-) TimerEvent: {}
+[2.917670] (-) TimerEvent: {}
+[3.018419] (-) TimerEvent: {}
+[3.119157] (-) TimerEvent: {}
+[3.206654] (mimi_head) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.219402] (-) TimerEvent: {}
+[3.320145] (-) TimerEvent: {}
+[3.420912] (-) TimerEvent: {}
+[3.521739] (-) TimerEvent: {}
+[3.622494] (-) TimerEvent: {}
+[3.723291] (-) TimerEvent: {}
+[3.824143] (-) TimerEvent: {}
+[3.865294] (mimi_head) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.924330] (-) TimerEvent: {}
+[4.025084] (-) TimerEvent: {}
+[4.125929] (-) TimerEvent: {}
+[4.226677] (-) TimerEvent: {}
+[4.327430] (-) TimerEvent: {}
+[4.390405] (mimi_head) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.421643] (mimi_head) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.427607] (-) TimerEvent: {}
+[4.528415] (-) TimerEvent: {}
+[4.629303] (-) TimerEvent: {}
+[4.730911] (-) TimerEvent: {}
+[4.832193] (-) TimerEvent: {}
+[4.932974] (-) TimerEvent: {}
+[5.033932] (-) TimerEvent: {}
+[5.134878] (-) TimerEvent: {}
+[5.235935] (-) TimerEvent: {}
+[5.337496] (-) TimerEvent: {}
+[5.342382] (mimi_head) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[5.344582] (mimi_head) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[5.346652] (mimi_head) StderrLine: {'line': b'  mimi_head --arguments-file\n'}
+[5.348566] (mimi_head) StderrLine: {'line': b'  /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter__arguments__mimi_head.json\n'}
+[5.350068] (mimi_head) StderrLine: {'line': b'  --output-dir\n'}
+[5.351188] (mimi_head) StderrLine: {'line': b'  /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head\n'}
+[5.352289] (mimi_head) StderrLine: {'line': b'  --output-file\n'}
+[5.353740] (mimi_head) StderrLine: {'line': b'  /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head.idls)\n'}
+[5.355120] (mimi_head) StderrLine: {'line': b'  returned error code 1:\n'}
+[5.356268] (mimi_head) StderrLine: {'line': b'\n'}
+[5.357702] (mimi_head) StderrLine: {'line': b"  Error processing '// msg for servo movement' of 'mimi_head/Movement': '//'\n"}
+[5.358806] (mimi_head) StderrLine: {'line': b'\n'}
+[5.359980] (mimi_head) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[5.362448] (mimi_head) StderrLine: {'line': b'\n'}
+[5.364583] (mimi_head) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[5.366720] (mimi_head) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[5.369824] (mimi_head) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[5.370781] (mimi_head) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[5.371905] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[5.373069] (mimi_head) StderrLine: {'line': b'      sys.exit(main())\n'}
+[5.374206] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[5.375416] (mimi_head) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[5.376426] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[5.377486] (mimi_head) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[5.379532] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[5.382375] (mimi_head) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[5.384786] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[5.386759] (mimi_head) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[5.388354] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[5.392561] (mimi_head) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[5.395262] (mimi_head) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 190, in __init__\n'}
+[5.397533] (mimi_head) StderrLine: {'line': b'      raise InvalidResourceName(type_string)\n'}
+[5.399733] (mimi_head) StderrLine: {'line': b'\n'}
+[5.409670] (mimi_head) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: //\n'}
+[5.411916] (mimi_head) StderrLine: {'line': b'\n'}
+[5.414014] (mimi_head) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.416156] (mimi_head) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[5.417688] (mimi_head) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[5.418631] (mimi_head) StderrLine: {'line': b'\n'}
+[5.425001] (mimi_head) StderrLine: {'line': b'\x1b[0m\n'}
+[5.425872] (mimi_head) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.426534] (mimi_head) StdoutLine: {'line': b'See also "/home/mimi/mimi_ros2_ws/build/mimi_head/CMakeFiles/CMakeOutput.log".\n'}
+[5.427227] (mimi_head) StderrLine: {'line': b'gmake: *** [Makefile:870: cmake_check_build_system] Error 1\n'}
+[5.432996] (mimi_head) CommandEnded: {'returncode': 2}
+[5.437817] (-) TimerEvent: {}
+[5.539345] (-) TimerEvent: {}
+[5.640211] (-) TimerEvent: {}
+[5.741020] (-) TimerEvent: {}
+[5.845089] (-) TimerEvent: {}
+[5.946309] (-) TimerEvent: {}
+[5.999011] (mimi_head) JobEnded: {'identifier': 'mimi_head', 'rc': 2}
+[6.011973] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_py/mimi_head/msg/_movement_s.c

@@ -358,11 +358,11 @@ include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_tar
 # install("TARGETS" "mimi_head__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mimi_head")
 include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Angle.idl" "DESTINATION" "share/mimi_head/msg")
-ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Angle.idl" "DESTINATION" "share/mimi_head/msg")
+# install(FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Movement.idl" "DESTINATION" "share/mimi_head/msg")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Movement.idl" "DESTINATION" "share/mimi_head/msg")
 
-# install(FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg" "DESTINATION" "share/mimi_head/msg")
-ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg" "DESTINATION" "share/mimi_head/msg")
+# install(FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Movement.msg" "DESTINATION" "share/mimi_head/msg")
+ament_cmake_symlink_install_files("/home/mimi/mimi_ros2_ws/src/mimi_head" FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Movement.msg" "DESTINATION" "share/mimi_head/msg")
 
 # install("TARGETS" "mimi_camera" "mimi_monitor" "mimi_head_movement" "DESTINATION" "lib/mimi_head")
 include("/home/mimi/mimi_ros2_ws/build/mimi_head/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

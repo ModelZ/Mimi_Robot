@@ -8,7 +8,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/image.hpp"
-#include "mimi_head/msg/angle.hpp"
+#include "mimi_head/msg/movement.hpp"
 
 using namespace std;
 using namespace cv;
@@ -33,8 +33,8 @@ class MimiCameraNode : public rclcpp::Node
                 "mimi_vision_monitor", 10
             );
 
-            angle_publisher_ = this->create_publisher<mimi_head::msg::Angle>(
-                "head_movement_angle", 10
+            movement_publisher_ = this->create_publisher<mimi_head::msg::Movement>(
+                "head_movement", 10
             );
 
             // create new parameter
@@ -138,18 +138,24 @@ class MimiCameraNode : public rclcpp::Node
                     }
                 }
                 
-                //logger debug & publish angle
+                //logger debug & publish movement
                 if(!closest_face_rect.empty())
                 {         
                     RCLCPP_INFO(this->get_logger(), "found closest face at: {%d, %d}, Center: {%d, %d}", closest_face_rect.x, closest_face_rect.y, center.x, center.y);
                     
-                    // publish angle
+                    // publish movement
                     if(!is_timer_active)
-                        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&MimiCameraNode::pub_angle, this));
+                        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&MimiCameraNode::pub_movement, this));
                     is_timer_active = true;
-                    // this->pub_angle();
+                    // this->pub_movement();
                 }   
                 else if(is_timer_active){
+                    //stop movement
+                    auto msg_pub_unknown = mimi_head::msg::Movement();
+                    msg_pub_unknown.pos_x = "unknown";
+                    msg_pub_unknown.pos_z = "unknown";
+                    movement_publisher_->publish(msg_pub_unknown);
+
                     timer_->cancel();
                     is_timer_active = false;
                 } 
@@ -168,8 +174,9 @@ class MimiCameraNode : public rclcpp::Node
             //*** End OpenCV ****
         }
 
-        void pub_angle()
+        void pub_movement()
         {
+            auto msg_movement = mimi_head::msg::Movement();
 
             const float MAXIMUM_ANGLE_X = 180.0;
             const float MINIMUM_ANGLE_X = 0.0;
@@ -183,99 +190,60 @@ class MimiCameraNode : public rclcpp::Node
             float center_cam_width = (float)cam_width / 2.0;
             float center_cam_height = (float)cam_height / 2.0;
 
-            // angle x
+            // movement x
 
             float px_x = (float)center_closest_face_rect.x; // define x axis in pixel
             float diff_px_x = center_cam_width - px_x; // define different of x axis and center of camera
-            float angle_to_move_x; // angle to move in x axis
+            int limit_x = 64; // center area of point x
 
             // turning checking x axis
 
-            if(diff_px_x > 0){ // destination is right side 
-            
-                angle_to_move_x = current_angle_x + ((diff_px_x / center_cam_width) * 90.0) * ratio_x; // angle to move in x axis
+            if(diff_px_x > limit_x){ // destination is right side 
 
-            }else if(diff_px_x < 0){ // destination is left side 
+                msg_movement.pos_x = "right";
+
+            }else if(diff_px_x < -limit_x){ // destination is left side 
             
-                angle_to_move_x = current_angle_x - ((abs(diff_px_x) / center_cam_width) * 90.0) * ratio_x; // angle to move in x axis
+                msg_movement.pos_x = "left";
 
             }else{ // destination is current position
-                angle_to_move_x = current_angle_x;
+            
+                msg_movement.pos_x = "ok";
+
             }
 
-            // angle z
+            // movement z
 
             float px_z = (float)center_closest_face_rect.y; // define z axis in pixel
             float diff_px_z = center_cam_height - px_z; // define different of z axis and center of camera
-            float angle_to_move_z; // angle to move in z axis
+            int limit_z = 64; // center area of point z
 
             // turning checking z axis
 
-            if(diff_px_z > 0){ // destination is above
+            if(diff_px_z > limit_z){ // destination is above
 
-                angle_to_move_z = current_angle_z + ((diff_px_z / center_cam_height) * 90.0 ) * ratio_z; // angle to move in z axis
+                msg_movement.pos_z = "up";    
 
-            } else if(diff_px_z < 0){ // destination is below
+            } else if(diff_px_z < -limit_z){ // destination is below
 
-                angle_to_move_z = current_angle_z - ((abs(diff_px_z) / center_cam_height) * 90.0) * ratio_z; // angle to move in z axis
+                msg_movement.pos_z = "down";   
 
             }else { // destination is current position
-                angle_to_move_z = current_angle_z;
+                msg_movement.pos_z = "ok";
             }
-
-            //Block out of bound
-
-            if(angle_to_move_x > MAXIMUM_ANGLE_X)
-            {      
-                RCLCPP_WARN(this->get_logger(), "[%.2f] X_axis value is out of bound. The value is set as maximum value instead.", angle_to_move_x);
-                angle_to_move_x = MAXIMUM_ANGLE_X;
-            }
-
-            if(angle_to_move_x < MINIMUM_ANGLE_X)
-            {
-                RCLCPP_WARN(this->get_logger(), "[%.2f] X_axis value is out of bound. The value is set as minimum value instead.", angle_to_move_x);
-                angle_to_move_x = MINIMUM_ANGLE_X;
-            }
-
-            if(angle_to_move_z > MAXIMUM_ANGLE_Z)
-            {               
-                RCLCPP_WARN(this->get_logger(), "[%.2f] Z_axis value is out of bound. The value is set as maximum value instead.", angle_to_move_z);
-                angle_to_move_z = MAXIMUM_ANGLE_Z;
-            }
-
-            if(angle_to_move_z < MINIMUM_ANGLE_Z)
-            {    
-                RCLCPP_WARN(this->get_logger(), "[%.2f] Z_axis value is out of bound. The value is set as minimum value instead.", angle_to_move_z);
-                angle_to_move_x = MINIMUM_ANGLE_Z;
-            }
-
-            // finalize before publish
-
-            auto msg_angle = mimi_head::msg::Angle();
-            msg_angle.angle_x = round(angle_to_move_x);
-            msg_angle.angle_z = round(angle_to_move_z);
 
             //debug
-            cout << angle_to_move_x << " " << angle_to_move_z
-            << " px_x: " << px_x 
-            << " px_z: "<< px_z  <<endl;
+            cout << "msg_movement.pos_x -> " << msg_movement.pos_x << endl <<
+            "msg_movement.pos_z -> " << msg_movement.pos_z << endl;
 
-            // publish angle message
-            angle_publisher_->publish(msg_angle);
-
-            // set new current position
-            current_angle_x = angle_to_move_x;
-            current_angle_z = angle_to_move_z;
-            
-
+            // publish movement message
+            movement_publisher_->publish(msg_movement);
             
         }
 
-        float current_angle_x = 90.0;
-        float current_angle_z = 90.0;
         bool is_timer_active = false;
         rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr cam_publisher_;
-        rclcpp::Publisher<mimi_head::msg::Angle>::SharedPtr angle_publisher_;
+        rclcpp::Publisher<mimi_head::msg::Movement>::SharedPtr movement_publisher_;
         rclcpp::TimerBase::SharedPtr timer_;
 
 };

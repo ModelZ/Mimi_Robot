@@ -1,0 +1,23 @@
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_movement()[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:175:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  175 |             const float [01;35m[KMAXIMUM_ANGLE_X[m[K = 180.0;
+      |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:176:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  176 |             const float [01;35m[KMINIMUM_ANGLE_X[m[K = 0.0;
+      |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:177:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAXIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  177 |             const float [01;35m[KMAXIMUM_ANGLE_Z[m[K = 170.0;
+      |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:178:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMINIMUM_ANGLE_Z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  178 |             const float [01;35m[KMINIMUM_ANGLE_Z[m[K = 45.0;
+      |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:182:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  182 |             float [01;35m[Kratio_x[m[K = this->get_parameter("ratio_x").as_double();
+      |                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:183:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  183 |             float [01;35m[Kratio_z[m[K = this->get_parameter("ratio_z").as_double();
+      |                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:244:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  244 | void sigint_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K

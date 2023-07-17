@@ -19,7 +19,7 @@ find_library(PIGPIO_LIBRARY pigpio)
 
 # add custom interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Angle.msg"
+  "msg/Movement.msg"
 )
 
 # add support for using custom interfaces in C++ from this package

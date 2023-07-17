@@ -1,0 +1,79 @@
+[0.085s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.370s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_c[0m
+[0.458s] [  0%] Built target ament_cmake_python_symlink_mimi_head
+[0.477s] [  8%] Built target mimi_head__rosidl_generator_c
+[0.486s] [ 10%] Built target mimi_head__cpp
+[0.512s] [ 16%] Built target mimi_monitor
+[0.547s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c[0m
+[0.581s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c[0m
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c[0m
+[0.698s] [ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[0.717s] [ 32%] Built target mimi_head__rosidl_typesupport_introspection_c
+[0.753s] [ 40%] Built target mimi_head__rosidl_typesupport_c
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_cpp[0m
+[0.850s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_cpp[0m
+[0.892s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_cpp[0m
+[0.920s] [ 48%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[0.990s] [ 56%] Built target mimi_head__rosidl_typesupport_cpp
+[1.049s] [ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.109s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[1.305s] [ 64%] Built target mimi_head
+[1.386s] [ 67%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[1.407s] [ 70%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[1.496s] [ 72%] Built target mimi_head__py
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_py[0m
+[1.767s] [ 78%] Built target mimi_head__rosidl_generator_py
+[1.916s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.146s] [ 83%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[2.294s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c__pyext[0m
+[2.420s] [ 89%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[2.586s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c__pyext[0m
+[2.774s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[3.455s] running egg_info
+[3.462s] writing mimi_head.egg-info/PKG-INFO
+[3.479s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[3.480s] writing top-level names to mimi_head.egg-info/top_level.txt
+[3.507s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.518s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[3.725s] [ 94%] Built target ament_cmake_python_build_mimi_head_egg
+[17.342s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In constructor ‘[01m[KMimiHeadMovementNode::MimiHeadMovementNode()[m[K’:
+[17.343s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:40:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_x[m[K’
+[17.344s]    40 |             init_angle.[01;31m[Kangle_x[m[K = 90;
+[17.356s]       |                        [01;31m[K^~~~~~~[m[K
+[17.366s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_z[m[K’
+[17.367s]    41 |             init_angle.[01;31m[Kangle_z[m[K = 90;
+[17.367s]       |                        [01;31m[K^~~~~~~[m[K
+[17.368s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::servo_control(const Movement&)[m[K’:
+[17.384s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_x[m[K’
+[17.390s]    59 |                 angle_x = msg.[01;31m[Kangle_x[m[K;
+[17.391s]       |                               [01;31m[K^~~~~~~[m[K
+[17.391s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:60:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_z[m[K’
+[17.392s]    60 |                 angle_z = msg.[01;31m[Kangle_z[m[K;
+[17.393s]       |                               [01;31m[K^~~~~~~[m[K
+[17.394s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[17.395s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:105:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.395s]   105 | void sigint_handler([01;35m[Kint sig[m[K)
+[17.396s]       |                     [01;35m[K~~~~^~~[m[K
+[21.884s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_angle()[m[K’:
+[21.886s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:255:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle_x[m[K’
+[21.886s]   255 |             msg_angle.[01;31m[Kangle_x[m[K = round(angle_to_move_x);
+[21.887s]       |                       [01;31m[K^~~~~~~[m[K
+[21.895s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:256:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle_z[m[K’
+[21.896s]   256 |             msg_angle.[01;31m[Kangle_z[m[K = round(angle_to_move_z);
+[21.896s]       |                       [01;31m[K^~~~~~~[m[K
+[21.978s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcam_publisher_[m[K’?
+[21.979s]   264 |             [01;31m[Kangle_publisher_[m[K->publish(msg_angle);
+[21.980s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[21.981s]       |             [32m[Kcam_publisher_[m[K
+[21.982s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[21.982s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:283:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.983s]   283 | void sigint_handler([01;35m[Kint sig[m[K)
+[21.984s]       |                     [01;35m[K~~~~^~~[m[K
+[27.750s] gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+[27.752s] gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/mimi_camera.dir/all] Error 2
+[27.753s] gmake[1]: *** Waiting for unfinished jobs....
+[29.110s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+[29.116s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[29.117s] gmake: *** [Makefile:146: all] Error 2
+[29.190s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

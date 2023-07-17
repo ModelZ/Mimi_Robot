@@ -1,0 +1,8 @@
+[  2%] Built target mimi_head__cpp
+[  8%] Built target mimi_monitor
+[ 16%] Built target mimi_head__rosidl_typesupport_cpp
+[ 24%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[ 32%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[ 37%] Built target mimi_camera
+[35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m

@@ -356,11 +356,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mimi_head/msg" TYPE FILE FILES "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head/msg/Angle.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mimi_head/msg" TYPE FILE FILES "/home/mimi/mimi_ros2_ws/build/rosidl_adapter/mimi_head/msg/Movement.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mimi_head/msg" TYPE FILE FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mimi_head/msg" TYPE FILE FILES "/home/mimi/mimi_ros2_ws/src/mimi_head/msg/Movement.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

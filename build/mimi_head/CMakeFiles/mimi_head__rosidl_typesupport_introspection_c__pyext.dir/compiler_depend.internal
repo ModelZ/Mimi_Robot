@@ -242,8 +242,10 @@ CMakeFiles/mimi_head__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/angle__type_support.h
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/movement__type_support.h
  /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/rosidl_generator_c__visibility_control.h
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/angle__struct.h
- /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/angle__functions.h
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/movement__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+ /home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head/msg/detail/movement__functions.h
 

@@ -3,7 +3,7 @@
   "output_dir": "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_generator_c/mimi_head",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head:msg/Angle.idl"
+    "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head:msg/Movement.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Angle.idl"
+    "/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_adapter/mimi_head/msg/Movement.idl"
   ]
 }

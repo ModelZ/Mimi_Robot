@@ -1,0 +1,1 @@
+/home/mimi/mimi_ros2_ws/build/mimi_head/rosidl_typesupport_introspection_cpp/mimi_head/msg/detail/movement__rosidl_typesupport_introspection_cpp.hpp

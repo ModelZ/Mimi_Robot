@@ -241,11 +241,19 @@ CMakeFiles/mimi_head__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/mimi_head/msg/detail/angle__type_support.h \
+  rosidl_generator_c/mimi_head/msg/detail/movement__type_support.h \
   rosidl_generator_c/mimi_head/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/mimi_head/msg/detail/angle__struct.h \
-  rosidl_generator_c/mimi_head/msg/detail/angle__functions.h
+  rosidl_generator_c/mimi_head/msg/detail/movement__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/mimi_head/msg/detail/movement__functions.h
 
+
+rosidl_generator_c/mimi_head/msg/detail/movement__functions.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
+rosidl_generator_c/mimi_head/msg/detail/movement__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
@@ -288,8 +296,6 @@ CMakeFiles/mimi_head__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
-
-rosidl_generator_c/mimi_head/msg/detail/angle__functions.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -355,8 +361,6 @@ rosidl_generator_c/mimi_head/msg/detail/angle__functions.h:
 
 /usr/include/python3.10/pyhash.h:
 
-rosidl_generator_c/mimi_head/msg/detail/angle__type_support.h:
-
 /usr/include/python3.10/cpython/object.h:
 
 /usr/include/python3.10/pystrtod.h:
@@ -421,8 +425,6 @@ rosidl_generator_c/mimi_head/msg/detail/angle__type_support.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
-rosidl_generator_c/mimi_head/msg/detail/angle__struct.h:
-
 /usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
@@ -456,6 +458,8 @@ rosidl_generator_c/mimi_head/msg/detail/angle__struct.h:
 /usr/include/python3.10/cpython/fileutils.h:
 
 /usr/include/errno.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitflags.h:
 
@@ -606,6 +610,8 @@ rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_fastrtps_c.c:
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/aarch64-linux-gnu/asm/posix_types.h:
+
+rosidl_generator_c/mimi_head/msg/detail/movement__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 

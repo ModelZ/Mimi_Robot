@@ -685,15 +685,15 @@ CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o: /home/mimi/mimi_
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  rosidl_generator_cpp/mimi_head/msg/angle.hpp \
-  rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp \
-  rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp \
-  rosidl_generator_cpp/mimi_head/msg/detail/angle__traits.hpp
+  rosidl_generator_cpp/mimi_head/msg/movement.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/movement__struct.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/movement__builder.hpp \
+  rosidl_generator_cpp/mimi_head/msg/detail/movement__traits.hpp
 
 
-rosidl_generator_cpp/mimi_head/msg/detail/angle__traits.hpp:
+rosidl_generator_cpp/mimi_head/msg/detail/movement__builder.hpp:
 
-rosidl_generator_cpp/mimi_head/msg/angle.hpp:
+rosidl_generator_cpp/mimi_head/msg/movement.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -845,6 +845,8 @@ rosidl_generator_cpp/mimi_head/msg/angle.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
+rosidl_generator_cpp/mimi_head/msg/detail/movement__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
@@ -979,8 +981,6 @@ rosidl_generator_cpp/mimi_head/msg/angle.hpp:
 
 /usr/include/c++/11/bits/invoke.h:
 
-rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp:
-
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/unique_lock.h:
@@ -1086,8 +1086,6 @@ rosidl_generator_cpp/mimi_head/msg/detail/angle__builder.hpp:
 /usr/include/c++/11/future:
 
 /usr/include/stdint.h:
-
-rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
@@ -1994,6 +1992,8 @@ rosidl_generator_cpp/mimi_head/msg/detail/angle__struct.hpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
+
+rosidl_generator_cpp/mimi_head/msg/detail/movement__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 

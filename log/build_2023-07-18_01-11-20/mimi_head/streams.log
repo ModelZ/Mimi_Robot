@@ -1,0 +1,234 @@
+[0.107s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[0.201s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.996s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.078s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.273s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.284s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.701s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.709s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.349s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.828s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.856s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.113s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.330s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.443s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.523s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.634s] -- Configured cppcheck include dirs: 
+[7.635s] -- Configured cppcheck exclude dirs and/or files: 
+[7.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.644s] -- Added test 'lint_cmake' to check CMake code style
+[7.649s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.668s] -- Added test 'uncrustify' to check C / C++ code style
+[7.669s] -- Configured uncrustify additional arguments: 
+[7.673s] -- Added test 'xmllint' to check XML markup files
+[7.697s] -- Configuring done
+[8.082s] -- Generating done
+[8.106s] -- Build files have been written to: /home/mimi/mimi_ros2_ws/build/mimi_head
+[8.254s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.310s] [35m[1mConsolidate compiler generated dependencies of target mimi_monitor[0m
+[8.397s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.513s] [ 10%] Built target mimi_monitor
+[8.571s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[10.226s] [ 10%] Built target mimi_head__cpp
+[10.304s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.351s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.634s] [ 18%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_generator_c.dir/rosidl_generator_c/mimi_head/msg/detail/movement__functions.c.o[0m
+[11.436s] running egg_info
+[11.442s] writing mimi_head.egg-info/PKG-INFO
+[11.471s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[11.472s] writing top-level names to mimi_head.egg-info/top_level.txt
+[11.483s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[11.490s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[11.824s] [ 18%] Built target ament_cmake_python_build_mimi_head_egg
+[11.901s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.045s] [ 24%] [32m[1mLinking C shared library libmimi_head__rosidl_generator_c.so[0m
+[12.306s] [ 27%] [32mBuilding CXX object CMakeFiles/mimi_head__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mimi_head/msg/movement__type_support.cpp.o[0m
+[12.727s] [ 27%] Built target mimi_head__rosidl_generator_c
+[12.887s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.280s] [ 32%] [32mBuilding CXX object CMakeFiles/mimi_head__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mimi_head/msg/detail/dds_fastrtps/movement__type_support.cpp.o[0m
+[14.240s] [ 35%] [32mBuilding CXX object CMakeFiles/mimi_head__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mimi_head/msg/detail/movement__type_support.cpp.o[0m
+[15.384s] [ 37%] [32mBuilding CXX object CMakeFiles/mimi_head__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mimi_head/msg/detail/movement__type_support_c.cpp.o[0m
+[17.120s] [ 40%] [32m[1mLinking CXX shared library libmimi_head__rosidl_typesupport_cpp.so[0m
+[17.559s] [ 40%] Built target mimi_head__rosidl_typesupport_cpp
+[17.644s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.016s] [ 45%] [32m[1mLinking CXX shared library libmimi_head__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.615s] [ 45%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[19.734s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.914s] [ 51%] [32m[1mLinking CXX shared library libmimi_head__rosidl_typesupport_introspection_cpp.so[0m
+[19.942s] [ 54%] [32m[1mLinking CXX shared library libmimi_head__rosidl_typesupport_fastrtps_c.so[0m
+[20.275s] [ 56%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mimi_head/msg/detail/movement__type_support.c.o[0m
+[20.548s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[20.682s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[20.805s] [ 56%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[20.886s] [35m[1mConsolidate compiler generated dependencies of target mimi_head_movement[0m
+[20.899s] [ 59%] [32m[1mLinking C shared library libmimi_head__rosidl_typesupport_introspection_c.so[0m
+[20.948s] [ 62%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[21.100s] [ 64%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[21.325s] [ 64%] Built target mimi_head__rosidl_typesupport_introspection_c
+[21.771s] [ 67%] [32mBuilding CXX object CMakeFiles/mimi_head__rosidl_typesupport_c.dir/rosidl_typesupport_c/mimi_head/msg/movement__type_support.cpp.o[0m
+[21.993s] [ 70%] [32m[1mLinking CXX shared library libmimi_head__rosidl_typesupport_c.so[0m
+[22.221s] [ 70%] Built target mimi_head__rosidl_typesupport_c
+[22.363s] [ 70%] Built target mimi_head
+[22.511s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.937s] [ 72%] Built target mimi_head__py
+[25.097s] [ 75%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_generator_py.dir/rosidl_generator_py/mimi_head/msg/_movement_s.c.o[0m
+[26.518s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/mimi_head/libmimi_head__rosidl_generator_py.so[0m
+[26.890s] [ 78%] Built target mimi_head__rosidl_generator_py
+[27.091s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c__pyext[0m
+[27.093s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c__pyext[0m
+[27.260s] [ 81%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.339s] [ 83%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.161s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/mimi_head/mimi_head_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.430s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/mimi_head/mimi_head_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.518s] [ 89%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[28.720s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c__pyext[0m
+[28.876s] [ 91%] [32mBuilding C object CMakeFiles/mimi_head__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mimi_head/_mimi_head_s.ep.rosidl_typesupport_c.c.o[0m
+[28.943s] [ 91%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[29.734s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/mimi_head/mimi_head_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[30.169s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[39.311s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:55:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ in namespace ‘[01m[Kmimi_head::msg[m[K’ does not name a type; did you mean ‘[01m[KMovement[m[K’?
+[39.322s]    55 |         void servo_control(const mimi_head::msg::[01;31m[Kmovement[m[K & msg) //subscriptor method with msg recieved
+[39.323s]       |                                                  [01;31m[K^~~~~~~~[m[K
+[39.324s]       |                                                  [32m[KMovement[m[K
+[39.329s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[39.331s]   101 |         rclcpp::Subscription<mimi_head::msg::[01;31m[Kmovement[m[K>::SharedPtr subscription_;
+[39.331s]       |                                              [01;31m[K^~~~~~~~[m[K
+[39.332s]       |                                              [32m[KMovement[m[K
+[39.333s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[39.341s]   101 |         rclcpp::Subscription<mimi_head::msg::movement[01;31m[K>[m[K::SharedPtr subscription_;
+[39.342s]       |                                                      [01;31m[K^[m[K
+[39.343s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[39.344s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[39.344s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[39.345s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[39.352s]   101 |         rclcpp::Subscription<mimi_head::msg::movement>::[01;31m[KSharedPtr[m[K subscription_;
+[39.356s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[39.359s]       |                                                                  [32m[K;[m[K
+[39.363s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:101:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[39.366s]   101 |         rclcpp::Subscription<mimi_head::msg::movement>::SharedPtr [01;31m[Ksubscription_[m[K;
+[39.370s]       |                                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[39.373s]       |                                                                   [32m[Krmw_subscription_t[m[K
+[39.392s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In constructor ‘[01m[KMimiHeadMovementNode::MimiHeadMovementNode()[m[K’:
+[39.401s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[39.408s]    21 |             [01;31m[Ksubscription_[m[K = this->create_subscription<mimi_head::msg::movement>(
+[39.408s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[39.409s]       |             [32m[Krmw_subscription_t[m[K
+[39.410s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[39.410s]    21 |             subscription_ = this->create_subscription<mimi_head::msg::[01;31m[Kmovement[m[K>(
+[39.411s]       |                                                                       [01;31m[K^~~~~~~~[m[K
+[39.412s]       |                                                                       [32m[KMovement[m[K
+[39.418s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiHeadMovementNode::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (MimiHeadMovementNode::*)(const int&), MimiHeadMovementNode*, const std::_Placeholder<1>&>::type)[m[K’
+[39.420s]    21 |             subscription_ = [01;31m[Kthis->create_subscription<mimi_head::msg::movement>([m[K
+[39.421s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[39.421s]    22 | [01;31m[K                "head_movement", 10, std::bind(&MimiHeadMovementNode::servo_control, this, std::placeholders::_1)[m[K
+[39.422s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.430s]    23 | [01;31m[K            )[m[K;
+[39.433s]       |             [01;31m[K~[m[K                                                                   
+[39.433s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[39.435s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[39.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[39.437s]                  from [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:5[m[K:
+[39.438s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[39.446s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[39.449s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[39.453s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[39.457s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:21:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[39.460s]    21 |             subscription_ = [01;31m[Kthis->create_subscription<mimi_head::msg::movement>([m[K
+[39.464s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[39.467s]    22 | [01;31m[K                "head_movement", 10, std::bind(&MimiHeadMovementNode::servo_control, this, std::placeholders::_1)[m[K
+[39.470s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.474s]    23 | [01;31m[K            )[m[K;
+[39.477s]       |             [01;31m[K~[m[K                                                                   
+[39.481s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:39:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[39.484s]    39 |             mimi_head::msg::[01;31m[Kmovement[m[K init_angle;
+[39.487s]       |                             [01;31m[K^~~~~~~~[m[K
+[39.491s]       |                             [32m[KMovement[m[K
+[39.494s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit_angle[m[K’ was not declared in this scope
+[39.498s]    40 |             [01;31m[Kinit_angle[m[K.angle_x = 90;
+[39.501s]       |             [01;31m[K^~~~~~~~~~[m[K
+[39.505s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::servo_control(const int&)[m[K’:
+[39.509s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:59:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kangle_x[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[39.512s]    59 |                 angle_x = msg.[01;31m[Kangle_x[m[K;
+[39.515s]       |                               [01;31m[K^~~~~~~[m[K
+[39.531s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:60:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kangle_z[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[39.540s]    60 |                 angle_z = msg.[01;31m[Kangle_z[m[K;
+[39.543s]       |                               [01;31m[K^~~~~~~[m[K
+[39.546s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[39.550s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:105:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[39.553s]   105 | void sigint_handler([01;35m[Kint sig[m[K)
+[39.556s]       |                     [01;35m[K~~~~^~~[m[K
+[42.050s] gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+[42.052s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+[42.052s] gmake[1]: *** Waiting for unfinished jobs....
+[43.613s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:278:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[43.614s]   278 |         rclcpp::Publisher<mimi_head::msg::[01;31m[Kmovement[m[K>::SharedPtr movement_publisher_;
+[43.615s]       |                                           [01;31m[K^~~~~~~~[m[K
+[43.615s]       |                                           [32m[KMovement[m[K
+[43.616s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:278:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[43.616s]   278 |         rclcpp::Publisher<mimi_head::msg::movement[01;31m[K>[m[K::SharedPtr movement_publisher_;
+[43.616s]       |                                                   [01;31m[K^[m[K
+[43.617s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:278:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[43.617s]   278 |         rclcpp::Publisher<mimi_head::msg::movement>::[01;31m[KSharedPtr[m[K movement_publisher_;
+[43.625s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[43.626s]       |                                                               [32m[K;[m[K
+[43.632s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:278:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_publisher_[m[K’ does not name a type
+[43.632s]   278 |         rclcpp::Publisher<mimi_head::msg::movement>::SharedPtr [01;31m[Kmovement_publisher_[m[K;
+[43.633s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[43.726s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In constructor ‘[01m[KMimiCameraNode::MimiCameraNode()[m[K’:
+[43.728s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[43.729s]    36 |             [01;31m[Kmovement_publisher_[m[K = this->create_publisher<mimi_head::msg::movement>(
+[43.729s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[43.730s]       |             [32m[Kcount_publishers[m[K
+[43.731s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:36:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[43.731s]    36 |             movement_publisher_ = this->create_publisher<mimi_head::msg::[01;31m[Kmovement[m[K>(
+[43.732s]       |                                                                          [01;31m[K^~~~~~~~[m[K
+[43.733s]       |                                                                          [32m[KMovement[m[K
+[43.733s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:36:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiCameraNode::create_publisher<<expression error> >(const char [14], int)[m[K’
+[43.734s]    36 |             movement_publisher_ = [01;31m[Kthis->create_publisher<mimi_head::msg::movement>([m[K
+[43.735s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[43.736s]    37 | [01;31m[K                "head_movement", 10[m[K
+[43.736s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                                
+[43.737s]    38 | [01;31m[K            )[m[K;
+[43.737s]       |             [01;31m[K~[m[K                                                                      
+[43.738s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[43.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[43.739s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[43.740s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[43.741s]                  from [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:9[m[K:
+[43.741s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[43.742s]    73 | [01;36m[KNode[m[K::create_publisher(
+[43.743s]       | [01;36m[K^~~~[m[K
+[43.743s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[43.744s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:36:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[43.744s]    36 |             movement_publisher_ = [01;31m[Kthis->create_publisher<mimi_head::msg::movement>([m[K
+[43.745s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[43.746s]    37 | [01;31m[K                "head_movement", 10[m[K
+[43.746s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                                
+[43.747s]    38 | [01;31m[K            )[m[K;
+[43.748s]       |             [01;31m[K~[m[K                                                                      
+[43.848s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_angle()[m[K’:
+[43.848s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:254:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ is not a member of ‘[01m[Kmimi_head::msg[m[K’; did you mean ‘[01m[KMovement[m[K’?
+[43.849s]   254 |             auto msg_angle = mimi_head::msg::[01;31m[Kmovement[m[K();
+[43.850s]       |                                              [01;31m[K^~~~~~~~[m[K
+[43.851s]       |                                              [32m[KMovement[m[K
+[43.931s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcam_publisher_[m[K’?
+[43.932s]   264 |             [01;31m[Kangle_publisher_[m[K->publish(msg_angle);
+[43.933s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[43.933s]       |             [32m[Kcam_publisher_[m[K
+[43.936s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[43.937s] [01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:283:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[43.937s]   283 | void sigint_handler([01;35m[Kint sig[m[K)
+[43.938s]       |                     [01;35m[K~~~~^~~[m[K
+[49.184s] gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+[49.185s] gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/mimi_camera.dir/all] Error 2
+[49.187s] gmake: *** [Makefile:146: all] Error 2
+[49.246s] Invoked command in '/home/mimi/mimi_ros2_ws/build/mimi_head' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4

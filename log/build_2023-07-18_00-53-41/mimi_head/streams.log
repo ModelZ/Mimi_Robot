@@ -1,0 +1,31 @@
+[0.187s] Invoking command in '/home/mimi/mimi_ros2_ws/build/mimi_head': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mimi/mimi_ros2_ws/build/mimi_head -- -j4 -l4
+[1.370s] [  2%] Built target mimi_head__cpp
+[1.392s] [ 10%] Built target mimi_head__rosidl_generator_c
+[1.506s] [ 10%] Built target ament_cmake_python_symlink_mimi_head
+[1.572s] [ 16%] Built target mimi_monitor
+[1.713s] [ 24%] Built target mimi_head__rosidl_typesupport_cpp
+[1.779s] [ 32%] Built target mimi_head__rosidl_typesupport_introspection_c
+[1.956s] [ 40%] Built target mimi_head__rosidl_typesupport_fastrtps_cpp
+[1.957s] [ 48%] Built target mimi_head__rosidl_typesupport_c
+[2.006s] [ 56%] Built target mimi_head__rosidl_typesupport_introspection_cpp
+[2.188s] [35m[1mConsolidate compiler generated dependencies of target mimi_camera[0m
+[2.352s] [ 64%] Built target mimi_head__rosidl_typesupport_fastrtps_c
+[2.485s] [ 67%] [32mBuilding CXX object CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o[0m
+[2.726s] [ 70%] [32mBuilding CXX object CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o[0m
+[2.790s] [ 70%] Built target mimi_head
+[3.150s] [ 72%] Built target mimi_head__py
+[3.369s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_generator_py[0m
+[3.644s] [ 78%] Built target mimi_head__rosidl_generator_py
+[3.902s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.088s] [ 83%] Built target mimi_head__rosidl_typesupport_fastrtps_c__pyext
+[4.343s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_introspection_c__pyext[0m
+[4.497s] [ 89%] Built target mimi_head__rosidl_typesupport_introspection_c__pyext
+[4.744s] [35m[1mConsolidate compiler generated dependencies of target mimi_head__rosidl_typesupport_c__pyext[0m
+[4.872s] [ 94%] Built target mimi_head__rosidl_typesupport_c__pyext
+[6.896s] running egg_info
+[6.896s] writing mimi_head.egg-info/PKG-INFO
+[6.909s] writing dependency_links to mimi_head.egg-info/dependency_links.txt
+[6.913s] writing top-level names to mimi_head.egg-info/top_level.txt
+[6.961s] reading manifest file 'mimi_head.egg-info/SOURCES.txt'
+[6.975s] writing manifest file 'mimi_head.egg-info/SOURCES.txt'
+[7.483s] [ 94%] Built target ament_cmake_python_build_mimi_head_egg

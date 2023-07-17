@@ -1,0 +1,39 @@
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::movement_control(const Movement&)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:67:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiHeadMovementNode::servoX_control(int&)[m[K’
+   67 |                         [01;31m[KservoX_control(--angle_x)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MimiHeadMovementNode::servoX_control()[m[K’
+   87 |         void [01;36m[KservoX_control[m[K() //subscriptor method with msg recieved
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:69:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiHeadMovementNode::servoX_control(int&)[m[K’
+   69 |                         [01;31m[KservoX_control(++angle_x)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MimiHeadMovementNode::servoX_control()[m[K’
+   87 |         void [01;36m[KservoX_control[m[K() //subscriptor method with msg recieved
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:77:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiHeadMovementNode::servoX_control(int&)[m[K’
+   77 |                         [01;31m[KservoX_control(--angle_z)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MimiHeadMovementNode::servoX_control()[m[K’
+   87 |         void [01;36m[KservoX_control[m[K() //subscriptor method with msg recieved
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:79:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMimiHeadMovementNode::servoX_control(int&)[m[K’
+   79 |                         [01;31m[KservoX_control(++angle_z)[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MimiHeadMovementNode::servoX_control()[m[K’
+   87 |         void [01;36m[KservoX_control[m[K() //subscriptor method with msg recieved
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:87:14:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:56:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   56 |             int [01;35m[Kspeed_ms[m[K = 10;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:146:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  146 | void sigint_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

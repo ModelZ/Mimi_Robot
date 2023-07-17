@@ -1,0 +1,39 @@
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In constructor ‘[01m[KMimiHeadMovementNode::MimiHeadMovementNode()[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:40:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_x[m[K’
+   40 |             init_angle.[01;31m[Kangle_x[m[K = 90;
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_z[m[K’
+   41 |             init_angle.[01;31m[Kangle_z[m[K = 90;
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In member function ‘[01m[Kvoid MimiHeadMovementNode::servo_control(const Movement&)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_x[m[K’
+   59 |                 angle_x = msg.[01;31m[Kangle_x[m[K;
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:60:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst struct mimi_head::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangle_z[m[K’
+   60 |                 angle_z = msg.[01;31m[Kangle_z[m[K;
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_head_movement.cpp:105:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | void sigint_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In member function ‘[01m[Kvoid MimiCameraNode::pub_angle()[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:255:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle_x[m[K’
+  255 |             msg_angle.[01;31m[Kangle_x[m[K = round(angle_to_move_x);
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:256:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mimi_head::msg::Movement_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangle_z[m[K’
+  256 |             msg_angle.[01;31m[Kangle_z[m[K = round(angle_to_move_z);
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcam_publisher_[m[K’?
+  264 |             [01;31m[Kangle_publisher_[m[K->publish(msg_angle);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kcam_publisher_[m[K
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:[m[K In function ‘[01m[Kvoid sigint_handler(int)[m[K’:
+[01m[K/home/mimi/mimi_ros2_ws/src/mimi_head/src/mimi_camera.cpp:283:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  283 | void sigint_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/mimi_camera.dir/build.make:76: CMakeFiles/mimi_camera.dir/src/mimi_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/mimi_camera.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/mimi_head_movement.dir/build.make:76: CMakeFiles/mimi_head_movement.dir/src/mimi_head_movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/mimi_head_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

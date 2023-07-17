@@ -1,1 +1,1 @@
-from mimi_head.msg._angle import Angle  # noqa: F401
+from mimi_head.msg._movement import Movement  # noqa: F401

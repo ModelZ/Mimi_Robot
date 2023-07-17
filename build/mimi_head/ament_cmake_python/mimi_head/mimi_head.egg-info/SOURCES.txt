@@ -6,3 +6,4 @@ mimi_head.egg-info/dependency_links.txt
 mimi_head.egg-info/top_level.txt
 mimi_head/msg/__init__.py
 mimi_head/msg/_angle.py
+mimi_head/msg/_movement.py

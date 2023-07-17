@@ -66,7 +66,7 @@ include CMakeFiles/mimi_head.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/mimi_head.dir/progress.make
 
-CMakeFiles/mimi_head: /home/mimi/mimi_ros2_ws/src/mimi_head/msg/Angle.msg
+CMakeFiles/mimi_head: /home/mimi/mimi_ros2_ws/src/mimi_head/msg/Movement.msg
 
 mimi_head: CMakeFiles/mimi_head
 mimi_head: CMakeFiles/mimi_head.dir/build.make
